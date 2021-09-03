@@ -1,0 +1,18 @@
+/*Navigation*/
+
+.responsive {
+  background-position: center;
+  /*si aparece scrol abajo o contenido que no sale, muestra toda la imagen*/
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.formatImage {
+  float: left;
+  margin-left: 5%;
+  width: 100%;
+  height: auto;
+  margin-right: 5%;
+  overflow: hidden;
+}

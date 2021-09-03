@@ -1,0 +1,327 @@
+a {
+    text-decoration:none;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+color: #f1501a;
+text-decoration: none;
+}
+
+.top-info a:hover {
+  color: #f1501a;
+}
+
+header .navbar .navbar-collapse .navbar-nav li.active a{
+  color: #f1501a;
+}
+header .navbar .navbar-collapse .navbar-nav li:hover a{
+  color: #f1501a;
+}
+header .navbar .navbar-collapse .navbar-nav li ul.drop-down {
+    border-top: 2px solid #f1501a;
+  }
+header .navbar .navbar-collapse .navbar-nav li ul.drop-down:after {
+border-bottom: 5px solid #f1501a;
+}
+
+header .navbar .navbar-collapse .navbar-nav li ul.drop-down li a:hover {
+  color: #f1501a;
+  background: #131518;
+}
+
+.tp-leftarrow.default:hover,
+.tp-rightarrow.default:hover {
+  background: #f1501a !important;
+}
+
+.jomelle_button_white2:hover{
+  background: #f1501a !important;
+}
+
+.jomelle_button_white1:hover{
+  background: #f1501a !important;
+  cursor: pointer;
+}
+
+.jomelle_button:hover{
+  border: 1px solid #f1501a;
+  background: #fff !important;
+  cursor: pointer;
+}
+
+ .jomelle_button:hover a{
+    color: #f1501a;
+  }
+
+  .jomelle_big_orange {
+    color: #f1501a;
+  }
+
+  .jomelle_orange_text{
+    color: #f1501a;
+  }
+
+  .main-title span {
+  color: #f1501a;
+}
+
+.main-border {
+  border-bottom: 2px solid #f1501a;
+}
+
+.service-item i {
+  color: #f1501a;
+}
+
+
+.service-item:hover i {
+  background: #f1501a;
+  }
+
+  .feat-text i {
+  color: #f1501a;
+}
+
+.learn-more:hover {
+  background: #f1501a;
+  color: #fff;
+}
+
+.filter a:hover, .filter a.active {
+  background-color: #f1501a;
+
+}
+
+.advantage .adv-title h1 {
+  background: #f1501a;
+}
+
+.advantage .adv-title h1:after {
+  content:"";
+  border-top: 15px solid #f1501a;
+  }
+
+.adv-item i {
+  color: #f1501a;
+}
+
+.leftmain-border {
+  width: 30px;
+  border-bottom: 2px solid #f1501a;
+}
+
+
+.accordion-header:hover {
+  background: url(../images/hover-header.png) 15px center #f1501a;
+}
+
+.active-header {
+  color: #f1501a;
+}
+
+.skills-progress p span {
+  color: #f1501a;
+}
+
+.meter > span {
+    background-color: #f1501a;
+}
+
+.box.orange {
+  background: #f1501a;
+}
+
+
+.skills-progress2 p span {
+  color: #f1501a;
+}
+
+.photo > span{
+background-color: #f1501a;
+}
+
+.html-style span {
+  background: #f1501a;
+}
+
+
+.html-style a {
+  color: #f1501a;
+}
+
+.bullets i {
+  font-size: 14px;
+  color: #f1501a;
+}
+
+.bullets .li-circle {
+  color: #f1501a;
+  font-size: 14px;
+}
+.bullets .li-ol {
+  color: #f1501a;
+  font-size: 14px;
+}
+
+.dropcaps .full-drop span{
+  background: #f1501a;
+  margin-top: 5px;
+}
+
+.block-bordered blockquote {
+  border-left: 5px solid #f1501a;
+}
+
+.error-big {
+  text-align: center;
+  color: #f1501a;
+
+}
+
+.error-p a {
+  color: #f1501a !important;
+}
+
+.button-def {
+background-color: #f1501a;
+}
+
+.btn-orange:hover {
+  background: #d24515;
+  color: #fff;
+}
+
+.btn-orange-hover {
+  background: #d24515;
+  color: #fff;
+}
+.btn-orange-hover:hover {
+  background: #d24515;
+  color: #fff;
+}
+
+.land-footer input[type="submit"]:hover {
+  background: #d24515;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #f1501a;
+  border: 2px solid transparent;
+}
+
+.tp-caption.jomelle_button_white1 {
+  color:#f1501a;
+}
+
+.jomelle_button_white1 {
+  color:#f1501a;
+}
+
+ #foo4 .mask {
+      background:rgba(241, 80, 26, 0.9); 
+  }
+
+  .filter-container .mask {
+    background:rgba(241, 80, 26, 0.9); 
+}
+
+  .timeline .timeline-row .timeline-time {
+      color: #f1501a;
+       }
+.timeline .timeline-row .timeline-icon > div {
+        color: #f1501a;
+      }
+
+      
+ .jomelle_button_white2 {
+        color:#f1501a;
+      }
+
+      .tp-caption.jomelle_button {
+
+      background-color:#f1501a;
+      border-width:0px;
+      border-color:#f1501a;
+
+    }
+
+    .jomelle_button {
+      background-color:#f1501a;
+      border-width:0px;
+      border-color:#f1501a;
+      border-style: none
+    }
+
+    .tp-caption.jomelle_button {
+
+      background-color:#f1501a;
+      border-width:0px;
+      border-color:#f1501a;
+      border-style:none
+    }
+
+    .tp-caption.jomelle_button_white2 {
+      color:#f1501a;
+    }
+
+
+
+  .feat3-item i {
+    color: #f1501a;
+  }
+
+  .feat3-item:hover i {
+    background: #f1501a;
+  }
+  .about-creative i {
+    color: #f1501a;
+  }
+
+
+.ben-item i {
+  background: #f1501a;
+}
+.ben-item:hover i {
+  background: #fff;
+  border: 1px solid #f1501a;
+}
+.ben-item2 i {
+  background: #f1501a;
+}
+
+.ben-item2:hover i {
+  background: #fff;
+  border: 1px solid #f1501a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
