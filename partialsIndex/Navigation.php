@@ -21,7 +21,7 @@
 
 							<div class="logo">
 								<a href="index.php">
-									<img src="images/logo.jpg" class="responsive" alt="logo" />
+									<img src="images/cenix.png" class="responsive" alt="logo" />
 								</a>
 							</div>
 
