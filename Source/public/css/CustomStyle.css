@@ -10,7 +10,8 @@
 
 .formatImage {
   float: left;
-  margin-left: 5%;
+  margin-bottom: 1vh;
+  padding-right: 5%;
   width: 100%;
   height: auto;
   margin-right: 5%;
