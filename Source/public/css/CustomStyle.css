@@ -25,3 +25,11 @@
   padding-left: 50%;
   padding-right: 5%;
 }
+
+.pintar {
+  border: 5px solid blue;
+}
+
+nav {
+  margin-top: 5%;
+}
