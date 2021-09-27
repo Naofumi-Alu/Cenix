@@ -1,0 +1,105 @@
+<%- include ('../partials/head.html') %>
+
+    <body>
+        <%- include ('../partials/navigation.html') %>
+
+            <div class="container pt-2">
+                <div class="col-md-4 offset-md-4">
+                    <h1 class="text-center text-white pt-2">Contact</h1>
+                </div>
+            </div>
+            <hr>
+            <section class="container pt-2 pb-5">
+
+                <div class="row">
+
+                    <article class="animate__animated animate__flipInY col-md-8
+                        offset-md-2">
+
+                        <div class="card">
+
+                            <div class="card-header bg-dark text-white
+                                text-center">
+                                <h1>Contact me</h1>
+                            </div>
+
+                            <div class="card-body">
+
+                                <form id="informationForm" action="">
+
+                                    <div class="form-group">
+
+                                        <input id="newName" type="text"
+                                            class="form-control"
+                                            placeholder="name" />
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <input id="newEmail" type="text"
+                                            class="form-control"
+                                            placeholder="Email" />
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        
+                                        <textarea id="newMessage"
+                                            class="form-control" 
+                                            cols="30" rows="10"
+                                            placeholder="Message">
+                                        </textarea>
+
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <div class="d-grid gap-2">
+                                            <button type="submit"
+                                                class="btn
+                                                btn-primary"
+                                                type="button">
+                                                send Message
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pt-2">
+                                        <div class="d-grid gap-2">
+                                            <button  
+                                                id="getInformation"
+                                                class="btn
+                                                btn-primary"
+                                                type="button">
+                                                Get Ingormation
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>id</th>
+                                            <th>name</th>
+                                            <th>email</th>
+                                            <th>Message</th>
+                                        </tr>
+                                    </thead>
+                                    <hr>
+                                    <tbody class="form-group">
+                                        <!--With JavaScript-->
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                                </section>
+
+<%- include ('../partials/footer.html') %>
