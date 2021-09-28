@@ -1,0 +1,138 @@
+
+.SliderMain{
+    
+    border: 3px solid salmon;
+
+}
+
+.solution_services{
+    position: relative;
+    border: 3px solid gold;
+    height: 93.5vh;
+}
+
+
+.portafolio{
+
+    border: 3px solid blueviolet;
+
+}
+
+.ourServicies{
+
+    border: 3px solid teal;
+   
+}
+
+.features {
+    
+}
+
+.onWorkPortafolio{
+   
+}
+
+.testimonials{
+    
+}
+
+.company {
+   
+}
+
+.skills{
+    
+
+}
+
+.Customers{
+   
+}
+
+.footer {
+ 
+}
+
+#contentCard{
+    position: absolute;
+    top:15%;
+    left: 34%;
+    height: 59.4%;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+@media only Screen and (max-width: 768px){
+
+    .SliderMain{
+    
+        border: 3px solid salmon;
+    
+    }
+    
+    .solution_services{
+        position: relative;
+        border: 3px solid gold;
+        height: 93.5vh;
+        margin-bottom: 0%;
+    }
+    
+    
+    .portafolio{
+        
+        border: 3px solid blueviolet;
+    
+    }
+    
+    .ourServicies{
+    
+        border: 3px solid teal;
+       
+    }
+    
+    .features {
+        
+    }
+    
+    .onWorkPortafolio{
+       
+    }
+    
+    .testimonials{
+        
+    }
+    
+    .company {
+       
+    }
+    
+    .skills{
+        
+    
+    }
+    
+    .Customers{
+       
+    }
+    
+    .footer {
+     
+    }
+    #contentCard{
+        position: absolute;
+        top:12%;
+        left: 0%;
+        height: 59.4%;
+        border: 1px solid blue;
+        overflow: hidden;
+    }
+
+}
+
+.espaciadoCard{
+    justify-content: space-around;
+}
+
+.customCardText{
+
+}

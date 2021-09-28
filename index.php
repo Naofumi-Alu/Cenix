@@ -6,90 +6,25 @@
 <!-- Navigation-->
 <?php include ('./src_php/Views/partials/navigation.html') ?>
 
-
-		<section >
+<!--Revolution Slider o banner principal-->
+	<section class="SliderMain container">
 			<!-- START REVOLUTION SLIDER 4.5.95 fullwidth mode -->
-			<div class="card bg-dark">
+			<div class="card bg-dark row">
+
 				<img src="./src_php/public/images/Slider6.jpeg" class="card-img" alt="portfolio_img6" style="width: 80rem; height: 30rem;" >
-				.
-					<div class="card-img-overlay" style="padding-top:13%; padding-left:5%">
-						<h1 class="card-title color">Enfocados en el <Strong >Servicio</strong></h1>
+		
+				<div class="card-img-overlay row" style="padding-top:13%; padding-left:5%">
+					<h1 class="card-title color">Enfocados en el <Strong >Servicio</strong></h1>
 						<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 						<p class="card-text">Last updated 3 mins ago</p>
-					</div>
-				
-			</div>
-		
-		</section>
-		<!-- END REVOLUTION SLIDER -->
-
-
-		<!-- content 
-			================================================== -->
-		<div id="content">
-			
-			<div class="amaze">
-				<div class="container">
-					<h1 class="main-title">Soluciones y <span>Servicios</span></h1>
-					<div class="main-border"></div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/tics370x250.jpg" alt="">
-								<h4>TIC´s</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="">
-								<h4>Edificios inteligentes</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" alt="">
-								<h4>Movilidad</h4>
-								<p>Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" alt="">
-								<h4>Seguridad vial</h4>
-								<p>Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/software370x250.jpg" alt="">
-								<h4>Software</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/IoT370x250.jpg" alt="">
-								<h4>IoT</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico. </p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="./src_php/public/images/Soluciones/Energia370x250.jpg" alt="">
-								<h4>Energía</h4>
-								<p>Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
-							</div>
-						</div>
-						
-					</div>
 				</div>
-			</div>
+			</div>	
+	</section>
+<!-- END REVOLUTION SLIDER -->
+
+<!--Soluciones y Servicios-->
+	<section class="container solution_services">
+		
 		<!--================ CARRUSEL    =================================-->
 		
 		<!--con indicadores-->
@@ -104,11 +39,11 @@
 				</div>
 				
 				<!-- Card del carrusel -->
-				<div class="card col-md-4" >
+				<div id="contentCard" class="container card col-md-4" >
 
-					<!--Carrusel con controles-->
+					<!--Carrusel con controles  -->
 					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
+						<!--Indicadores-->
 						<div class="carousel-indicators">
 							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -118,127 +53,141 @@
 							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
 							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
 						</div>
-
+						<!-- slides imagenes-->
 						<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img src="./src_php/public/images/Soluciones/tics370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>First slide label</h5>
-											<p>Some representative placeholder content for the first slide.</p>
-										</div>
-									</div>
+							<div class="carousel-item active">
+								<img src="./src_php/public/images/Soluciones/tics370x250.jpg" class="d-block w-100" alt="...">
+							</div>
 									
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Second slide label</h5>
-											<p>Some representative placeholder content for the second slide.</p>
-										</div>
-									</div>
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" class="d-block w-100" alt="...">
+							</div>
 									
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Third slide label</h5>
-											<p>Some representative placeholder content for the third slide.</p>
-										</div>
-									</div>
-
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Third slide label</h5>
-											<p>Some representative placeholder content for the third slide.</p>
-										</div>
-									</div>
-
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/software370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Third slide label</h5>
-											<p>Some representative placeholder content for the third slide.</p>
-										</div>
-									</div>
-
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/IoT370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Third slide label</h5>
-											<p>Some representative placeholder content for the third slide.</p>
-										</div>
-									</div>
-
-									<div class="carousel-item">
-										<img src="./src_php/public/images/Soluciones/Energia370x250.jpg" class="d-block w-100" alt="...">
-										<div class="carousel-caption d-none d-md-block">
-											<h5>Third slide label</h5>
-											<p>Some representative placeholder content for the third slide.</p>
-										</div>
-									</div>
-
-								</div>
-
-
-
-								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-
-							</button>
-
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
-
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" class="d-block w-100" alt="...">
+				
 							</div>
 
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" class="d-block w-100" alt="...">
+								
+							</div>
 
-					
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/software370x250.jpg" class="d-block w-100" alt="...">
+								
+							</div>
+
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/IoT370x250.jpg" class="d-block w-100" alt="...">
+								
+							</div>
+
+							<div class="carousel-item">
+								<img src="./src_php/public/images/Soluciones/Energia370x250.jpg" class="d-block w-100" alt="...">
+								
+							</div>
+								<!--Button Prev, Next-->
+							<div>
+
+								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+								</button>
+
+								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+
+						</div>
+						<!-- ==== Card Body ====-->
 						<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+
+							<div class="customCardText">
+								<h5 class="card-title">Card title1</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title2</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title3</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title4</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title5</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title6</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+							<div class="customCardText">
+								<h5 class="card-title">Card title7</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>	
 					</div>
  				</div>
-				</div>
 			</div>
 		</div>	
+	</section>
+<!--End Soluciones y Servicios-->
 
-		<!-- our work portfolio -->
-				<div class="our-work brown-bg">
+
+<!-- our work portfolio -->
+	<section class="portafolio">
+		<div class="our-work brown-bg">
 				
-						<div class="container">
-							<h1 class="main-title">Unidades de negocio</h1>
-							<div class="main-border"></div>
-							<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
+			<div class=" container">
+				<h1 class="main-title">Unidades de negocio</h1>
+					<div class="main-border"></div>
+						<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
 		
-							<div class="filters demo1">
+						<div class="filters demo1">
 								
-								<div class="clear"></div>
-								<div class="clearfix">
-									<ul class="filter-container home-filter clearfix">
-										<li class="class1">
-											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-1.jpg" alt="" />
-												 <a href="#"><div class="mask">
+							<div class="clear"></div>
+							<div class="clearfix">
+								<ul class="filter-container home-filter clearfix">
+									<li class="class1">
+										<div class="overlay">
+											<img src="./src_php/public/upload/portfolio/port4-1.jpg" alt="" />
+											<a href="#">
+												<div class="mask">
 													<div class="bottom-post">
 														<h2>Proyectos y soluciones</h2>
 														<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
 													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class2">
-											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-2.jpg" alt="" />
-												 <a href="#"><div class="mask">
+												</div>
+											</a>
+										</div>
+									</li>
+									<li class="class2">
+										<div class="overlay">
+											<img src="./src_php/public/upload/portfolio/port4-2.jpg" alt="" />
+											<a href="#">
+												<div class="mask">
 													<div class="bottom-post">
 														<h2>Servicios</h2>
 														<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
 													</div>
-												</div></a>
-											</div>
+												</div>
+											</a>
+										</div>
 										</li>
 										<li class="class3">
 											<div class="overlay">
@@ -290,12 +239,13 @@
 							</div>
 							<a href="#" class="learn-more">More works</a>			
 						</div>
-						<!-- End Portfolio -->
 				</div>
+	</section>
+<!-- End Portfolio -->	
 
-
-			
-				<div class="container">
+<!-- Our Services -->
+	<section class="ourServicies">
+			<div class="container">
 				<!-- Our Services -->
 				<div class="services">
 
@@ -312,6 +262,7 @@
 							</div>
 							
 						</div>
+	
 						<!-- end service item -->
 
 						<div class="col-md-3">
@@ -359,7 +310,11 @@
 				<!-- End Services -->
 			</div>
 			<!-- end container -->
+	</section>
+<!-- End Services -->
 
+<!-- Features -->
+	<section>
 			<!-- Features -->
 			<div class="features">
 				<div class="container">
@@ -390,7 +345,11 @@
 				</div>
 			</div>
 			<!-- End Features -->
+	</section>
+<!-- End Features -->
 
+<!-- our work portfolio -->
+	<section>
 			<!-- our work portfolio -->
 			<div class="our-work">
 				
@@ -488,8 +447,11 @@
 
 			</div>
 			<!-- end our work portfolio -->
+	</section>
+<!-- end our work portfolio -->
 
-
+<!-- Testimonials -->
+	<section> 
 			<div class="clients">
 
 				<div class="container">
@@ -517,7 +479,11 @@
 				</div>
 			</div>
 			<!-- End Testimonials -->
+	</section>
+<!-- End Testimonials -->
 
+<!-- Caracteristics of our Company -->
+	<section>
 			<div class="advantage">
 
 				<div class="adv-title">
@@ -590,10 +556,11 @@
 				</div>
 
 			</div>
+	</section>
+<!-- End Caracteristics of our Company -->
 
-
-			
-
+<!-- skills -->
+	<section>
 			<div class="tabsat">
 
 				<div class="container">
@@ -659,7 +626,11 @@
 
 			</div>
 			<!-- End skills -->
+	</section>
+<!-- End skills -->
 
+<!-- Customers or Partners-->
+	<section>
 			<div class="partners">
 				<div class="container">
 					<div class="row">
@@ -687,7 +658,11 @@
 
 		</div>
 		<!-- End content -->
-	
+	</section>
+<!-- End Customers or Partners-->	
+
+
+
 <!--FOOTER-->	
 			
 <?php include('./src_php/Views/partials/footer.html'); ?>
