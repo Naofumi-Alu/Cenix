@@ -1,3 +1,10 @@
+/* =========== Tipograpfy text ============*/
+
+.color {
+  color: #AB000D;
+}
+
+
 /*Navigation*/
 
 .responsive {
@@ -19,6 +26,7 @@
 }
 
 
+
 .headFormat {
   padding-bottom: 0%;
   padding-top: 2%;
@@ -26,10 +34,8 @@
   padding-right: 5%;
 }
 
-.pintar {
-  float: left;
-  border: 5px solid blue;
-  
+.pinter {
+  border: 5px solid #E53935;
 }
 
 nav {
@@ -456,4 +462,5 @@ nav {
 .Customnavbar-dark .Customnavbar-text a:focus {
   color: #fff;
 }
+
 
