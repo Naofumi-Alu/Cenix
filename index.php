@@ -40,189 +40,67 @@
 				
 			
 				<!-- Card del carrusel -->
-				<div class=" cardFormat-sm  container card col-md-6" >
+				<div class="cardFormat-sm  container card col-md-6" >
 						
 					<!--Carrusel con controles  -->
 					<!-- ==== Card Body ====-->
-					<div id="contentItemCarrusel" class="card-body">
+					<ul id="contentItemCarrusel" class="slider card-body">
 						
-						<div id="itemCarrusel-1">
+						<li class="itemCarrusel" id="itemCarrusel-1">
 
 							
 							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-7">
-									<i class="">7</i>
-								</a>
-								<a href="#itemCarrusel-2">
-									<i class="">2</i>
-								</a>
-									
-							</div>
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">
 
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-1">
+										<i class="">1</i>
+									</a>
+									<a href="#itemCarrusel-2">
+										<i class="">2</i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
 							<!-- Contenido tarjeta-->	
 							<div class="textCarrusel">
 								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
 								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
 							</div>
-						</div>
+						</li>
 
-						<div id="itemCarrusel-2" class="itemCarrusel ">
+						<li class="itemCarrusel" id="itemCarrusel-2">
+
 							
 							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
+							<div class="item-image">
+								<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-1">
+										<i class="">3</i>
+									</a>
+									<a href="#itemCarrusel-2">
+										<i class="">4</i>
+									</a>
+								</div>
+								
+							</div>
 						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-1">
-									<i class="">1</i>
-								</a>
-								<a href="#itemCarrusel-3">
-									<i class="">3</i>
-								</a>
-									
-							</div>
-
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-			
-						</div>
-
-						<div id="itemCarrusel-3" class="itemCarrusel ">			
 							
-							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-2">
-									<i class="">2</i>
-								</a>
-								<a href="#itemCarrusel-4">
-									<i class="">4</i>
-								</a>
-									
-							</div>
-
 							<!-- Contenido tarjeta-->	
 							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+								<h5 class="card-title">Edificios inteligentes</h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
 							</div>
-						</div>
-
-						<div id="itemCarrusel-4" class="itemCarrusel ">
-							
-							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-3">
-									<i class="">3</i>
-								</a>
-								<a href="#itemCarrusel-5">
-									<i class="">5</i>
-								</a>
-									
-							</div>
-
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>
-
-						<div id="itemCarrusel-5" class="itemCarrusel ">
-							
-							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-4">
-									<i class="">4</i>
-								</a>
-								<a href="#itemCarrusel-6">
-									<i class="">6</i>
-								</a>
-									
-							</div>
-
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>
-
-						<div id="itemCarrusel-6" class="itemCarrusel ">
-							
-							<!-- slides imagenes-->
-							<div class="itemCarrusel">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-5">
-									<i class="">5</i>
-								</a>
-								<a href="#itemCarrusel-7">
-									<i class="">7</i>
-								</a>
-									
-							</div>
-
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>
-
-						<div id="itemCarrusel-7" class="itemCarrusel ">
-							
-							<!-- slides imagenes-->
-							<div class="itemCarrusel"> 
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
-							<div>
-						
-							<!--Button Prev, Next-->
-							<div class="flechasCarrusel">
-								<a href="#itemCarrusel-6">
-									<i class="">6</i>
-								</a>
-								<a href="#itemCarrusel-1">
-									<i class="">1</i>
-								</a>
-									
-							</div>
-
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>					
- 					</div>
+						</li>
+				
+ 					<ul>
 				</div>
 			</div>
 		</div>	

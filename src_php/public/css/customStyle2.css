@@ -11,7 +11,7 @@
 .solution_services{
     position: relative;
     border: 3px solid gold;
-    height: 109.4vh;
+    height: 75.4vh;
     margin-bottom: 0%;
 }
 
@@ -57,30 +57,42 @@
  
 }
 
+a{
+    text-decoration: none;
+    color: rgb(223, 163, 163);
+    
+
+}
 
 #contentItemCarrusel{
-    border: 5px solid rgb(231, 156, 156);
-    height: 58vh;
-    overflow: hidden;
+    position: relative;
+    border: 5px solid rgb(248, 0, 0);
+    height: 55vh;
+    width: auto;
 }
 
 .itemCarrusel{
-    background-color: rgba(106, 90, 205,0.3);
-    border: 2px solid rgb(85, 46, 226);
-    position: relative;
-    top:0;
-    height: 37.7vh;
+   
+    position: absolute;
+    align-items: center;
+    height: auto;
     width: auto;
+}
+
+
+.item-image{
+    position: absolute;
+    top: 5%;
+    height: 30vh;
+    width: 55vh;
 }
 
 .imagenCarrusel{
     height:100%;
     width: 100%;
-    border: 2px solid gold;
 }
 
 .flechasCarrusel {
-   
     position:absolute;
     top: 0%;
     height: 100%;
@@ -108,12 +120,55 @@
     
 }
 
+.textCarrusel{
+    position: absolute;
+    position: absolute;
+    top:30vh;
+    height: 20vh;
+    width: 55vh;
+    background-color: white; 
+}
+
+.card-title{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .card-text {
     padding-bottom: 10%;
 }
 
+ul, li{
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+}
+
+ul.slider li {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s; 
+    background-color: white;   
+}
+
+ul.slider li img{
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
 #itemCarrusel-1{
-    background-color: rgba(101, 129, 212,0.3) ;
+    background-color: rgba(77, 117, 236, 0.3) ;
 }
 #itemCarrusel-2{
     background-color: rgba(226, 152, 152,0.3) ;
