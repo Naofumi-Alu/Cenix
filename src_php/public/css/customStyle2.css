@@ -1,4 +1,7 @@
 
+/*Movile*/
+@media only screen and (max-width: 770px){
+    
 .SliderMain{
     
     border: 3px solid salmon;
@@ -8,12 +11,13 @@
 .solution_services{
     position: relative;
     border: 3px solid gold;
-    height: 93.5vh;
+    height: 109.4vh;
+    margin-bottom: 0%;
 }
 
 
 .portafolio{
-
+    
     border: 3px solid blueviolet;
 
 }
@@ -53,17 +57,89 @@
  
 }
 
-#contentCard{
-    position: absolute;
-    top:15%;
-    left: 34%;
-    height: 59.4%;
-    border: 1px solid blue;
+
+#contentItemCarrusel{
+    border: 5px solid rgb(231, 156, 156);
+    height: 58vh;
     overflow: hidden;
 }
 
-@media only Screen and (max-width: 768px){
+.itemCarrusel{
+    background-color: rgba(106, 90, 205,0.3);
+    border: 2px solid rgb(85, 46, 226);
+    position: relative;
+    top:0;
+    height: 37.7vh;
+    width: auto;
+}
 
+.imagenCarrusel{
+    height:100%;
+    width: 100%;
+    border: 2px solid gold;
+}
+
+.flechasCarrusel {
+   
+    position:absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10%
+
+}
+
+.iconFlechas-D{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 5%;
+    
+}
+
+.iconFlechas-I{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 95%;
+    
+}
+
+.card-text {
+    padding-bottom: 10%;
+}
+
+#itemCarrusel-1{
+    background-color: rgba(101, 129, 212,0.3) ;
+}
+#itemCarrusel-2{
+    background-color: rgba(226, 152, 152,0.3) ;
+}
+#itemCarrusel-3{
+    background-color: rgba(185, 218, 119,0.3) ;
+}
+#itemCarrusel-4{
+    background-color: rgba(211, 182, 109,0.3) ;
+}
+#itemCarrusel-5{
+    background-color: rgba(177, 109, 177,0.3) ;
+}
+#itemCarrusel-6{
+    background-color: rgba(119, 42, 119,0.3) ;
+}
+#itemCarrusel-7{
+    background-color: rgba(93, 145, 145,0.3) ;
+}
+
+.cardFormat-sm{
+   padding-left: 5%; 
+}
+}
+/*Desktop*/
+@media only Screen and (min-width: 770px){
     .SliderMain{
     
         border: 3px solid salmon;
@@ -73,7 +149,7 @@
     .solution_services{
         position: relative;
         border: 3px solid gold;
-        height: 93.5vh;
+        height: 109.4vh;
         margin-bottom: 0%;
     }
     
@@ -118,21 +194,82 @@
     .footer {
      
     }
-    #contentCard{
+    
+    
+    #contentItemCarrusel{
         position: absolute;
         top:12%;
-        left: 0%;
-        height: 59.4%;
+        height: 70vh;
         border: 1px solid blue;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
         overflow: hidden;
     }
-
+ 
+    
+    .imagenCarrusel{
+        position: relative;
+        height:100%;
+        width: 100%;
+        border: 2px solid gold;
+    }
+    
+    .flechasCarrusel {
+        position:absolute;
+        height: 100%;
+        top: 0%;
+        width: 89.4%;
+        color:turquoise;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .iconFlechas-D{
+        position: absolute;
+        display: flex;
+        top: 38%;
+        right: 5%;
+        
+    }
+    
+    .iconFlechas-I{
+        position: absolute;
+        display: flex;
+        top: 38%;
+        right: 95%;
+        
+    }
+    
+    .card-text {
+        padding-bottom: 10%;
+    }
+    
+    #itemCarrusel-1{
+        background-color: rgba(101, 129, 212,0.3) ;
+    }
+    #itemCarrusel-2{
+        background-color: rgba(226, 152, 152,0.3) ;
+    }
+    #itemCarrusel-3{
+        background-color: rgba(185, 218, 119,0.3) ;
+    }
+    #itemCarrusel-4{
+        background-color: rgba(211, 182, 109,0.3) ;
+    }
+    #itemCarrusel-5{
+        background-color: rgba(177, 109, 177,0.3) ;
+    }
+    #itemCarrusel-6{
+        background-color: rgba(119, 42, 119,0.3) ;
+    }
+    #itemCarrusel-7{
+        background-color: rgba(93, 145, 145,0.3) ;
+    }
+    
 }
 
-.espaciadoCard{
-    justify-content: space-around;
-}
 
-.customCardText{
 
-}

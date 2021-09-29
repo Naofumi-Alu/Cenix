@@ -33,116 +33,197 @@
 
 			<div class="main-border"></div>	
 
+
+			<!-- ====================== Solucuibes y servicios tarjeta  ====================================-->
+
 			<div class="row">
-				<!--formato de 4 columnas en blanco ala izquierda-->
-				<div class="col-md-4">	
-				</div>
 				
+			
 				<!-- Card del carrusel -->
-				<div id="contentCard" class="container card col-md-4" >
-
+				<div class=" cardFormat-sm  container card col-md-6" >
+						
 					<!--Carrusel con controles  -->
-					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-						<!--Indicadores-->
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-						</div>
-						<!-- slides imagenes-->
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="./src_php/public/images/Soluciones/tics370x250.jpg" class="d-block w-100" alt="...">
-							</div>
-									
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" class="d-block w-100" alt="...">
-							</div>
-									
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" class="d-block w-100" alt="...">
-				
-							</div>
+					<!-- ==== Card Body ====-->
+					<div id="contentItemCarrusel" class="card-body">
+						
+						<div id="itemCarrusel-1">
 
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" class="d-block w-100" alt="...">
-								
-							</div>
-
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/software370x250.jpg" class="d-block w-100" alt="...">
-								
-							</div>
-
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/IoT370x250.jpg" class="d-block w-100" alt="...">
-								
-							</div>
-
-							<div class="carousel-item">
-								<img src="./src_php/public/images/Soluciones/Energia370x250.jpg" class="d-block w-100" alt="...">
-								
-							</div>
-								<!--Button Prev, Next-->
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
 							<div>
-
-								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="visually-hidden">Previous</span>
-								</button>
-
-								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="visually-hidden">Next</span>
-								</button>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-7">
+									<i class="">7</i>
+								</a>
+								<a href="#itemCarrusel-2">
+									<i class="">2</i>
+								</a>
+									
 							</div>
 
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+							</div>
 						</div>
-						<!-- ==== Card Body ====-->
-						<div class="card-body">
 
-							<div class="customCardText">
-								<h5 class="card-title">Card title1</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+						<div id="itemCarrusel-2" class="itemCarrusel ">
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-1">
+									<i class="">1</i>
+								</a>
+								<a href="#itemCarrusel-3">
+									<i class="">3</i>
+								</a>
+									
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title2</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title3</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+			
+						</div>
+
+						<div id="itemCarrusel-3" class="itemCarrusel ">			
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-2">
+									<i class="">2</i>
+								</a>
+								<a href="#itemCarrusel-4">
+									<i class="">4</i>
+								</a>
+									
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title4</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title5</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+						</div>
+
+						<div id="itemCarrusel-4" class="itemCarrusel ">
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-3">
+									<i class="">3</i>
+								</a>
+								<a href="#itemCarrusel-5">
+									<i class="">5</i>
+								</a>
+									
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title6</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
 							</div>
-							<div class="customCardText">
-								<h5 class="card-title">Card title7</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#carouselExampleCaptions" class="btn btn-primary">Go somewhere</a>
+						</div>
+
+						<div id="itemCarrusel-5" class="itemCarrusel ">
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-4">
+									<i class="">4</i>
+								</a>
+								<a href="#itemCarrusel-6">
+									<i class="">6</i>
+								</a>
+									
 							</div>
-						</div>	
-					</div>
- 				</div>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+							</div>
+						</div>
+
+						<div id="itemCarrusel-6" class="itemCarrusel ">
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-5">
+									<i class="">5</i>
+								</a>
+								<a href="#itemCarrusel-7">
+									<i class="">7</i>
+								</a>
+									
+							</div>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+							</div>
+						</div>
+
+						<div id="itemCarrusel-7" class="itemCarrusel ">
+							
+							<!-- slides imagenes-->
+							<div class="itemCarrusel"> 
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">	
+							<div>
+						
+							<!--Button Prev, Next-->
+							<div class="flechasCarrusel">
+								<a href="#itemCarrusel-6">
+									<i class="">6</i>
+								</a>
+								<a href="#itemCarrusel-1">
+									<i class="">1</i>
+								</a>
+									
+							</div>
+
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+							</div>
+						</div>					
+ 					</div>
+				</div>
 			</div>
 		</div>	
 	</section>
@@ -158,9 +239,10 @@
 					<div class="main-border"></div>
 						<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
 		
-						<div class="filters demo1">
+						<div class="container filters demo1">
 								
 							<div class="clear"></div>
+
 							<div class="clearfix">
 								<ul class="filter-container home-filter clearfix">
 									<li class="class1">
