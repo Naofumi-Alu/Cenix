@@ -3,27 +3,36 @@
 
 
 <body>
-<!-- Navigation-->
-<?php include ('./src_php/Views/partials/navigation.html') ?>
+	
+<?php include ('./src_php/Views/partials/Navigation.html') ?>
 
+<div class="mainContainer">
 <!--Revolution Slider o banner principal-->
-	<section class="SliderMain container">
+	<section class="SliderMain container-fluid ">
 			<!-- START REVOLUTION SLIDER 4.5.95 fullwidth mode -->
 			<div class="card bg-dark row">
 
-				<img src="./src_php/public/images/Slider6.jpeg" class="card-img" alt="portfolio_img6" style="width: 80rem; height: 30rem;" >
-		
-				<div class="card-img-overlay row" style="padding-top:13%; padding-left:5%">
-					<h1 class="card-title color">Enfocados en el <Strong >Servicio</strong></h1>
-						<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text">Last updated 3 mins ago</p>
+				<img class="mainSlide" src="./src_php/public/images/Slider6.jpeg" class="card-img" alt="portfolio_img6" style="width: 80rem; " >
+
+				<h1 class="card-title ">Enfocados en el <Strong class="color">  Servicio</strong></h1>
+
+				<div class="card-img-overlay row">
+					
+					<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					
+					<div>
+						<img class="img" id="opacitiTrue-md" src="./src_php/public/images/cenix.png" class="img-fluid responsive" alt="logo" />
+					</div>
+					
+				
+							
 				</div>
 			</div>	
 	</section>
 <!-- END REVOLUTION SLIDER -->
 
 <!--Soluciones y Servicios-->
-	<section class="container solution_services">
+	<section class="container-fluid solution_services">
 		
 		<!--================ CARRUSEL    =================================-->
 		
@@ -40,32 +49,30 @@
 				
 			
 				<!-- Card del carrusel -->
-				<div class="cardFormat-sm  container card col-md-6" >
+				<div class="cardFormat-sm cardFormat-lg container card col-md-6" >
 						
 					<!--Carrusel con controles  -->
 					<!-- ==== Card Body ====-->
-					<ul id="contentItemCarrusel" class="slider card-body">
+					<ul id="container contentItemCarrusel" class="slider card-body">
 						
 						<li class="itemCarrusel" id="itemCarrusel-1">
 
-							
 							<!-- slides imagenes-->
 							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="...">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="..." width="430rem" height ="235rem">
 
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-1">
-										<i class="">1</i>
+									<a href="#itemCarrusel-4">
+										<i class="carousel-control-prev-icon"></i>
 									</a>
-									<a href="#itemCarrusel-2">
-										<i class="">2</i>
+									<a href="#itemCarrusel-3">
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
 								
 							</div>
-						
-							
+
 							<!-- Contenido tarjeta-->	
 							<div class="textCarrusel">
 								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
@@ -78,15 +85,15 @@
 							
 							<!-- slides imagenes-->
 							<div class="item-image">
-								<img src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
 
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
 									<a href="#itemCarrusel-1">
-										<i class="">3</i>
+										<i class="carousel-control-prev-icon"></i>
 									</a>
-									<a href="#itemCarrusel-2">
-										<i class="">4</i>
+									<a href="#itemCarrusel-3">
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
 								
@@ -99,8 +106,158 @@
 								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
 							</div>
 						</li>
-				
+						
+						<li class="itemCarrusel" id="itemCarrusel-3">
+
+							
+							<!-- slides imagenes-->
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" alt="" width="430rem" height ="235rem"> > 
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-2">
+										<i class="carousel-control-prev-icon"></i>
+									</a>
+									<a href="#itemCarrusel-4">
+										<i class="carousel-control-next-icon"></i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Movilidad</h5>
+								<p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana./p>
+							</div>
+						</li>
+
+						
+						<li class="itemCarrusel" id="itemCarrusel-4">
+
+							
+							<!-- slides imagenes-->
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-3">
+										<i class="">I</i>
+									</a>
+									<a href="#itemCarrusel-5">
+										<i class="">D</i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Seguridad vial</h5>
+								<p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
+							</div>
+						</li>
+
+						<li class="itemCarrusel" id="itemCarrusel-5">
+
+							
+							<!-- slides imagenes-->
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/software370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-4">
+										<i class="">I</i>
+									</a>
+									<a href="#itemCarrusel-6">
+										<i class="">D</i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Software</h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
+							</div>
+						</li>
+
+						<li class="itemCarrusel" id="itemCarrusel-6">
+
+							
+							<!-- slides imagenes-->
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/IoT370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-5">
+										<i class="">I</i>
+									</a>
+									<a href="#itemCarrusel-7">
+										<i class="">D</i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">IoT</h5>
+								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico.</p>
+							</div>
+						</li>
+
+						<li class="itemCarrusel" id="itemCarrusel-7">
+
+							
+							<!-- slides imagenes-->
+							<div class="item-image">
+								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Energia370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+								<!--Button Prev, Next-->
+								<div class="flechasCarrusel">
+									<a href="#itemCarrusel-6">
+										<i class="">I</i>
+									</a>
+									<a href="#itemCarrusel-1">
+										<i class="">D</i>
+									</a>
+								</div>
+								
+							</div>
+						
+							
+							<!-- Contenido tarjeta-->	
+							<div class="textCarrusel">
+								<h5 class="card-title">Energía</h5>
+								<p class="card-text">Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
+							</div>
+						</li>
+
+						<!--controles-->
+
+						<div id="contePuntos"class="container">
+							<a href="#itemCarrusel-1"></a>
+							<a href="#itemCarrusel-2"></a>
+							<a href="#itemCarrusel-3"></a>
+							<a href="#itemCarrusel-4"></a>
+							<a href="#itemCarrusel-5"></a>
+							<a href="#itemCarrusel-6"></a>
+							<a href="#itemCarrusel-7"></a>
+						</div>
+
  					<ul>
+
+				
 				</div>
 			</div>
 		</div>	
@@ -109,7 +266,7 @@
 
 
 <!-- our work portfolio -->
-	<section class="portafolio">
+	<section class="container-fluid portafolio">
 		<div class="our-work brown-bg">
 				
 			<div class=" container">
@@ -204,7 +361,7 @@
 <!-- End Portfolio -->	
 
 <!-- Our Services -->
-	<section class="ourServicies">
+	<section class="container-fluid ourServicies">
 			<div class="container">
 				<!-- Our Services -->
 				<div class="services">
@@ -274,7 +431,7 @@
 <!-- End Services -->
 
 <!-- Features -->
-	<section>
+	<section class="container-fluid features">
 			<!-- Features -->
 			<div class="features">
 				<div class="container">
@@ -309,7 +466,7 @@
 <!-- End Features -->
 
 <!-- our work portfolio -->
-	<section>
+	<section class="container-fluid onWorkPortafolio">
 			<!-- our work portfolio -->
 			<div class="our-work">
 				
@@ -411,7 +568,7 @@
 <!-- end our work portfolio -->
 
 <!-- Testimonials -->
-	<section> 
+	<section class="container-fluid testimonials"> 
 			<div class="clients">
 
 				<div class="container">
@@ -443,7 +600,7 @@
 <!-- End Testimonials -->
 
 <!-- Caracteristics of our Company -->
-	<section>
+	<section class="container-fluid company">
 			<div class="advantage">
 
 				<div class="adv-title">
@@ -520,7 +677,7 @@
 <!-- End Caracteristics of our Company -->
 
 <!-- skills -->
-	<section>
+	<section class="container-fluid skills">
 			<div class="tabsat">
 
 				<div class="container">
@@ -532,7 +689,7 @@
 						<h1 class="leftmain-title">Pocas palabras sobre nosotros</h1>
 						<div class="leftmain-border"></div>
 								
-								<div class="accordion">
+						<div class="accordion">
 									<div id="accordion-container"> 
 									     <h2 class="accordion-header">Quienes somos?</h2> 
 									     <div class="accordion-content"> 
@@ -549,7 +706,7 @@
 
 						</div>
 
-						<div class="col-md-6">
+						<div class="container col-md-6">
 						
 							<h1 class="leftmain-title">Nuestras habilidades</h1>
 							<div class="leftmain-border"></div>
@@ -590,7 +747,7 @@
 <!-- End skills -->
 
 <!-- Customers or Partners-->
-	<section>
+	<section class="container-fluid Customers">
 			<div class="partners">
 				<div class="container">
 					<div class="row">

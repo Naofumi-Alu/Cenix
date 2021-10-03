@@ -4471,8 +4471,11 @@ background-color: #8d2bdb !important;
 /*Footer*/
 
 .inner-footer {
+  position:relative;
+  left:0%;
+  width:auto;
   background: #191b1f;
-  padding: 80px 0;
+  text-align:justify;
 }
 
 footer p {
