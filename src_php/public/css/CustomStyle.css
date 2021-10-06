@@ -3,12 +3,12 @@
 @media (min-width: 720){
   /* =========== Tipograpfy text ============*/
 
-
-
 .color {
   color: #AB000D;
   padding-left: 2%;
+  font-weight: 300;
 }
+
 
 
 /*Navigation*/
@@ -145,7 +145,8 @@ nav {
   
   /* =========== Tipograpfy text ============*/
     .color {
-      color: #AB000D;
+      color: #F52E03;
+      padding-left: 0%;
     }
 
 

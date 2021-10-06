@@ -14,7 +14,7 @@
 
 				<img class="mainSlide" src="./src_php/public/images/Slider6.jpeg" class="card-img" alt="portfolio_img6" style="width: 80rem; " >
 
-				<h1 class="card-title ">Enfocados en el <Strong class="color">  Servicio</strong></h1>
+				<h1 class="card-title ">Enfocados en el <span class="color">Servicio</span></h1>
 
 				<div class="card-img-overlay row">
 					
@@ -38,7 +38,7 @@
 		
 		<!--con indicadores-->
 		<div id="content" class="container">
-			<h1 class="main-title">Soluciones y <span>Servicios</span></h1>
+			<h1 class="main-title">Soluciones y <span class="color">Servicios</span></h1>
 
 			<div class="main-border"></div>	
 
@@ -63,10 +63,10 @@
 
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-4">
+									<a href="#itemCarrusel-7">
 										<i class="carousel-control-prev-icon"></i>
 									</a>
-									<a href="#itemCarrusel-3">
+									<a href="#itemCarrusel-2">
 										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
@@ -75,7 +75,7 @@
 
 							<!-- Contenido tarjeta-->	
 							<div class="textCarrusel">
-								<h5 class="card-title">Soluciones y <span>Servicios</span></h5>
+								<h5 class="card-title-Solucion">Soluciones y <span>Servicios</span></h5>
 								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
 							</div>
 						</li>
@@ -96,7 +96,6 @@
 										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
-								
 							</div>
 						
 							
@@ -145,10 +144,10 @@
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
 									<a href="#itemCarrusel-3">
-										<i class="">I</i>
+										<i class="carousel-control-prev-icon"></i>
 									</a>
 									<a href="#itemCarrusel-5">
-										<i class="">D</i>
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
 								
@@ -172,10 +171,10 @@
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
 									<a href="#itemCarrusel-4">
-										<i class="">I</i>
+										<i class="carousel-control-prev-icon"></i>
 									</a>
 									<a href="#itemCarrusel-6">
-										<i class="">D</i>
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
 								
@@ -199,10 +198,10 @@
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
 									<a href="#itemCarrusel-5">
-										<i class="">I</i>
+										<i class="carousel-control-prev-icon"></i>
 									</a>
 									<a href="#itemCarrusel-7">
-										<i class="">D</i>
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
 								
@@ -226,13 +225,12 @@
 								<!--Button Prev, Next-->
 								<div class="flechasCarrusel">
 									<a href="#itemCarrusel-6">
-										<i class="">I</i>
+										<i class="carousel-control-prev-icon"></i>
 									</a>
 									<a href="#itemCarrusel-1">
-										<i class="">D</i>
+										<i class="carousel-control-next-icon"></i>
 									</a>
 								</div>
-								
 							</div>
 						
 							
@@ -270,93 +268,110 @@
 		<div class="our-work brown-bg">
 				
 			<div class=" container">
-				<h1 class="main-title">Unidades de negocio</h1>
-					<div class="main-border"></div>
-						<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
-		
-						<div class="container filters demo1">
+				
+				<!--titulo-->
+				<div class="">
+					<h1 class="main-title">Unidades de <span class="color"> negocio</span>
+					</h1>
+
+					<div class="main-border">
+					</div>
+					
+					<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
+				</div>
+
+
+				<!--formatPortafolio-->
+
+				<div class="container filters demo1">
 								
 							<div class="clear"></div>
-
+							
 							<div class="clearfix">
 								<ul class="filter-container home-filter clearfix">
-									<li class="class1">
-										<div class="overlay">
-											<img src="./src_php/public/upload/portfolio/port4-1.jpg" alt="" />
-											<a href="#">
-												<div class="mask">
-													<div class="bottom-post">
-														<h2>Proyectos y soluciones</h2>
-														<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
-													</div>
-												</div>
-											</a>
-										</div>
-									</li>
-									<li class="class2">
-										<div class="overlay">
-											<img src="./src_php/public/upload/portfolio/port4-2.jpg" alt="" />
-											<a href="#">
-												<div class="mask">
-													<div class="bottom-post">
-														<h2>Servicios</h2>
-														<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
-													</div>
-												</div>
-											</a>
-										</div>
-										</li>
-										<li class="class3">
-											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-3.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Comercialización</h2>
-														<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class4">
-											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-4.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>iR&D</h2>
-														<p>Desarrollo de soluciones de software y hardware a la medida. </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
+
+									<div class="container">
 										<li class="class1">
 											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-8.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Ingenieria</h2>
-														<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
+												<img class="cols1"src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
+												<a href="">
+													<div class="mask">
+														<div class="bottom-post">
+															<h2>Proyectos y soluciones</h2>
+															<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
+														</div>
 													</div>
-												</div></a>
+												</a>
 											</div>
 										</li>
 										<li class="class2">
 											<div class="overlay">
-												<img src="./src_php/public/upload/portfolio/port4-5.jpg" alt="" />
-												 <a href="#"><div class="mask">
+												<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
+												<a href="">
+													<div class="mask">
+														<div class="bottom-post">
+															<h2>Servicios</h2>
+															<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li class="class3">
+											<div class="overlay">
+												<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
+												<a href=""><div class="mask">
+													<div class="bottom-post">
+														<h2>Comercialización</h2>
+														<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li class="class4">
+											<div class="overlay">
+												<img class="cols1" src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
+												<a href=""><div class="mask">
+													<div class="bottom-post">
+														<h2>iR&D</h2>
+														<p>Desarrollo de soluciones de software y hardware a la medida. </p>
+													</div>
+												</a>
+											</div>
+										</li>
+									
+										<li class="class1">
+											<div class="overlay">
+												<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" alt="" />
+												<a href=""><div class="mask">
+													<div class="bottom-post">
+														<h2>Ingenieria</h2>
+														<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li class="class2">
+											<div class="overlay">
+												<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
+												<a href=""><div class="mask">
 													<div class="bottom-post">
 														<h2>Consultorías</h2>
 														<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
 													</div>
-												</div></a>
+												</a>
 											</div>
 										</li>
-
-									</ul>
-								</div>
+									
+									</div>
+								</ul>
 							</div>
-							<a href="#" class="learn-more">More works</a>			
-						</div>
+							
+							<a href="#" class="learn-more">More works</a>		
+		
 				</div>
+
+		</div>
 	</section>
 <!-- End Portfolio -->	
 
@@ -431,7 +446,7 @@
 <!-- End Services -->
 
 <!-- Features -->
-	<section class="container-fluid features">
+	<section class="container-fluid featuresContent">
 			<!-- Features -->
 			<div class="features">
 				<div class="container">
@@ -442,7 +457,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 mb20">
-							<h1 class="main-title">Por que <span>somo los mejores</span></h1>
+							<h1 class="main-title">Por que <span class="color">somo los mejores</span></h1>
 							<div class="feat-text mb30">
 								<i class="fa fa-eye"></i>
 								<div class="right-feat">
@@ -471,7 +486,7 @@
 			<div class="our-work">
 				
 				<div class="container">
-					<h1 class="main-title">Ultimos proyectos</h1>
+					<h1 class="main-title">Ultimos <span class="color">proyectos</span></h1>
 					<div class="main-border"></div>
 					<p class="main-subtitle">Lo que hemos hecho</p>
 
@@ -485,11 +500,11 @@
 							</ul>
 						</div>
 						<div class="clear"></div>
-						<div class="clearfix">
+						<div class="works clearfix">
 							<ul class="filter-container home-filter clearfix">
 								<li class="class1">
 									<div class="overlay">
-									    <img src="./src_php/public/images/Proyectos/cctv.jpg" id="responsive-image" alt="" />
+									    <img src="./src_php/public/images/Proyectos/cctv.jpg"  alt="" />
 	    							 	<a href="#"><div class="mask">
 									        <div class="bottom-post">
 									        	<h2>Acueducto de Bogotá</h2>
@@ -572,7 +587,7 @@
 			<div class="clients">
 
 				<div class="container">
-					<h1 class="main-title">Sobre nuestra compañia</h1>
+					<h1 class="main-title">Sobre nuestra <span class="color">compañia</span></h1>
 					<div class="main-border"></div>
 					<p class="main-subtitle">Que dicen los cliente sobre nosotros</p>
 				
@@ -750,6 +765,10 @@
 	<section class="container-fluid Customers">
 			<div class="partners">
 				<div class="container">
+					<h1 class="main-title">Nuestros <span class="color">Clientes</span></h1>
+					<div class="main-border"></div>	
+
+			
 					<div class="row">
 						<div class="col-md-2 col-sm-3">
 							<a href="#"><img src="./src_php/public/images/partners/chivor.jpg" alt=""></a>

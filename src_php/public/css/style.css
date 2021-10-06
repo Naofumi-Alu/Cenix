@@ -21,6 +21,7 @@
   *zoom: 1;
 }
 
+
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -356,10 +357,10 @@ header .navbar .navbar-collapse .navbar-nav li a {
 }
 
 header .navbar .navbar-collapse .navbar-nav li.active a{
-  color: #AB000D;
+  color: #F52E03;
 }
 header .navbar .navbar-collapse .navbar-nav li:hover a{
-  color: #AB000D;
+  color: #F52E03;
 }
 
 
@@ -377,7 +378,7 @@ header .navbar .navbar-collapse .navbar-nav li ul.drop-down {
   opacity: 0;
   z-index: 3;
   background-color: #191b1f;
-    border-top: 2px solid #AB000D;
+    border-top: 2px solid #F52E03;
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.15);
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.15);
   box-shadow: 0 0 8px rgba(0,0,0,.15);
@@ -694,6 +695,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 .main-title span {
   color: #F52E03;
+  /*F52E03*/
 }
 
 .main-border {
@@ -858,7 +860,8 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 /*Our Work*/
 .our-work {
-  padding: 80px 0;
+  padding: 0px;
+  border:5px solid blueviolet;
 }
 
 .filter {
@@ -903,7 +906,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 
 .filter-container li {
-  width: 24.97%;
+  width: auto;
   float: left;
   position: relative;
   overflow: hidden;
@@ -1028,7 +1031,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
   font-family: 'Titillium Web';
   margin: 0;
   background: #F52E03;
-  padding: 70px 0;
+  padding: 2% 0;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -4474,7 +4477,6 @@ background-color: #8d2bdb !important;
   position:relative;
   left:0%;
   width:auto;
-  background: #191b1f;
   text-align:justify;
 }
 
