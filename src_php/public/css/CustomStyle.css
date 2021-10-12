@@ -1,0 +1,273 @@
+
+/*Movile*/
+@media (min-width: 720){
+  /* =========== Tipograpfy text ============*/
+
+.color {
+  color: #AB000D;
+  padding-left: 2%;
+  font-weight: 300;
+}
+
+
+
+/*Navigation*/
+
+.responsive {
+  background-position: center;
+  /*si aparece scrol abajo o contenido que no sale, muestra toda la imagen*/
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.button-format{
+  position:absolute;
+  padding-right: 1%;
+  padding-left: 1%;
+   
+}
+
+.formatImage {
+  position: relative;    
+  width: 100%;
+  height: auto;
+  
+  overflow: hidden;
+}
+
+.formatImage  img {
+  height: 3vh ;
+  width:25vh ; 
+}
+
+.headFormat {
+  padding-bottom: 0%;
+  padding-top: 2%;
+  padding-left: 50%;
+  padding-right: 5%;
+}
+
+.pinter {
+  border: 5px solid #E53935;
+}
+
+nav {
+  margin-top: 0%;
+  width: 100%;
+}
+
+.custom-Margenes {
+  padding: 0% 5% 5% 5%;
+}
+
+.custom-Margen-Contact {
+  display: flex;
+  float: none;
+}
+
+.Custom-Float {
+  display:inline;
+  float:left;
+}
+
+.Customnavbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Customnavbar > .container,
+.Customnavbar > .container-fluid,
+.Customnavbar > .container-sm,
+.Customnavbar > .container-md,
+.Customnavbar > .container-lg,
+.Customnavbar > .container-xl,
+.Customnavbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.Customnavbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.Customnavbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.Customnavbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.Customnavbar-nav .dropdown-menu {
+  position: static;
+}
+
+.Customnavbar-text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Customnavbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.Customnavbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+}
+
+/* Desktop */
+@media (min-width:1050px) {
+
+
+  
+  /* =========== Tipograpfy text ============*/
+    .color {
+      color: #F52E03;
+      padding-left: 0%;
+    }
+
+
+    /*Navigation*/
+
+    .responsive {
+      background-position: center;
+      /*si aparece scrol abajo o contenido que no sale, muestra toda la imagen*/
+      background-attachment: fixed;
+      width: 100%;
+      height: auto;
+    }
+
+    .formatImage {
+      position: relative;    
+      width: 100%;
+      height: auto;
+      margin-left: 2%;
+      overflow: hidden;
+    }
+
+    .tamaño{
+      position: absolute;
+      height: 50vh;
+      border:5px solid blueviolet;
+    }
+
+    .headFormat {
+      padding-bottom: 0%;
+      padding-top: 2%;
+      padding-left: 50%;
+      padding-right: 5%;
+    }
+
+    .pinter {
+      border: 5px solid #E53935;
+    }
+
+    nav {
+      margin-top: 0%;
+      width: 100%;
+    }
+
+    .custom-Margenes {
+      padding: 0% 5% 5% 5%;
+    }
+
+    .custom-Margen-Contact {
+      display: flex;
+      float: none;
+    }
+
+    .Custom-Float {
+      display:inline;
+      float:left;
+    }
+
+    .Customnavbar {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .Customnavbar > .container,
+    .Customnavbar > .container-fluid,
+    .Customnavbar > .container-sm,
+    .Customnavbar > .container-md,
+    .Customnavbar > .container-lg,
+    .Customnavbar > .container-xl,
+    .Customnavbar > .container-xxl {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .Customnavbar-brand {
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .Customnavbar-nav {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
+    .Customnavbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .Customnavbar-nav .dropdown-menu {
+      position: static;
+    }
+
+    .Customnavbar-text {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .Customnavbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+      align-items: center;
+    }
+
+    .Customnavbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      transition: box-shadow 0.15s ease-in-out;
+    }
+}
+
