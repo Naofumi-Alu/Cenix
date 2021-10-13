@@ -10,22 +10,22 @@
 <!--Revolution Slider o banner principal-->
 	<section class="SliderMain container-fluid ">
 			<!-- START REVOLUTION SLIDER 4.5.95 fullwidth mode -->
-			<div class="card bg-dark row">
+			<div class="card bg-light row">
 
-				<img class="mainSlide" src="./src_php/public/images/Slider6.jpeg" class="card-img" alt="portfolio_img6" style="width: 80rem; " >
-
-				<h1 class="card-title ">Enfocados en el <span class="color">Servicio</span></h1>
-
+				<img src="./src_php/public/images/Slider6.jpeg" class="mainSlide card-img" alt="portfolio_img6">
+                
+                 <!-- card title -->
+				<h1 class="card-title">Enfocados en el <span class="color">Servicio</span></h1>
+                
+                <!-- card text -->
 				<div class="card-img-overlay row">
-					
-					<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					
-					<div>
+					<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>		
+					<div class="formating">
 						<img class="img" id="opacitiTrue-md" src="./src_php/public/images/cenix.png" class="img-fluid responsive" alt="logo" />
-					</div>
-					
-				
-							
+                    </div>
+                    <div class="divButton container">
+                        <a class="button-about" role="button" data-bs-toggle="button" href="#">Descubre más</a>
+                    </div>	
 				</div>
 			</div>	
 	</section>
@@ -266,111 +266,92 @@
 <!-- our work portfolio -->
 	<section class="container-fluid portafolio">
 		<div class="our-work brown-bg">
-				
-			<div class=" container">
-				
-				<!--titulo-->
-				<div class="">
-					<h1 class="main-title">Unidades de <span class="color"> negocio</span>
-					</h1>
+            <!--titulo-->
+			<div class="titulo">
+				<h1 class="main-title">Unidades de <span class="color"> negocio</span>
+				</h1>
 
-					<div class="main-border">
-					</div>
+				<div class="main-border">
+				</div>
 					
-					<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
-				</div>
-
-
-				<!--formatPortafolio-->
-
-				<div class="container filters demo1">
-								
-							<div class="clear"></div>
-							
-							<div class="clearfix">
-								<ul class="filter-container home-filter clearfix">
-
-									<div class="container">
-										<li class="class1">
-											<div class="overlay">
-												<img class="cols1"src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
-												<a href="">
-													<div class="mask">
-														<div class="bottom-post">
-															<h2>Proyectos y soluciones</h2>
-															<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
-														</div>
-													</div>
-												</a>
-											</div>
-										</li>
-										<li class="class2">
-											<div class="overlay">
-												<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
-												<a href="">
-													<div class="mask">
-														<div class="bottom-post">
-															<h2>Servicios</h2>
-															<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
-														</div>
-													</div>
-												</a>
-											</div>
-										</li>
-										<li class="class3">
-											<div class="overlay">
-												<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
-												<a href=""><div class="mask">
-													<div class="bottom-post">
-														<h2>Comercialización</h2>
-														<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
-													</div>
-												</a>
-											</div>
-										</li>
-										<li class="class4">
-											<div class="overlay">
-												<img class="cols1" src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
-												<a href=""><div class="mask">
-													<div class="bottom-post">
-														<h2>iR&D</h2>
-														<p>Desarrollo de soluciones de software y hardware a la medida. </p>
-													</div>
-												</a>
-											</div>
-										</li>
-									
-										<li class="class1">
-											<div class="overlay">
-												<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" alt="" />
-												<a href=""><div class="mask">
-													<div class="bottom-post">
-														<h2>Ingenieria</h2>
-														<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
-													</div>
-												</a>
-											</div>
-										</li>
-										<li class="class2">
-											<div class="overlay">
-												<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
-												<a href=""><div class="mask">
-													<div class="bottom-post">
-														<h2>Consultorías</h2>
-														<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
-													</div>
-												</a>
-											</div>
-										</li>
-									
+				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
+			</div>
+			<!--formatPortafolio-->
+			<div class="works">
+				<ul class="">
+					<li class="class1">
+						<div class="overlay">
+							<img class="cols1"src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
+							<a href="#">
+								<div class="mask">
+									<div class="bottom-post">
+										<h2>Proyectos y soluciones</h2>
+										<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
 									</div>
-								</ul>
-							</div>
-							
-							<a href="#" class="learn-more">More works</a>		
-		
-				</div>
-
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="class2">
+						<div class="overlay">
+							<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
+							<a href="">
+								<div class="mask">
+									<div class="bottom-post">
+										<h2>Servicios</h2>
+										<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="class3">
+						<div class="overlay">
+							<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
+							<a href=""><div class="mask">
+								<div class="bottom-post">
+									<h2>Comercialización</h2>
+									<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="class4">
+						<div class="overlay">
+							<img class="cols1" src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
+							<a href=""><div class="mask">
+								<div class="bottom-post">
+									<h2>iR&D</h2>
+									<p>Desarrollo de soluciones de software y hardware a la medida. </p>
+								</div>
+							</a>
+						</div>
+					</li>				
+					<li class="class1">
+						<div class="overlay">
+							<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" alt="" />
+							<a href=""><div class="mask">
+								<div class="bottom-post">
+									<h2>Ingenieria</h2>
+									<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="class2">
+						<div class="overlay">
+							<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
+							<a href=""><div class="mask">
+								<div class="bottom-post">
+									<h2>Consultorías</h2>
+									<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>	
+            </div>
+            <a href="#" class="learn-more">More works</a>	
 		</div>
 	</section>
 <!-- End Portfolio -->	

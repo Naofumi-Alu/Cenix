@@ -94,7 +94,6 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Titillium Web', sans-serif;
   background: #fff;
   overflow: hidden;
   outline: 0;
@@ -135,7 +134,6 @@ h1 {
   color: #000;
   font-weight: 700;
   font-size: 32px;
-  font-family: 'Titillium Web';
 }
 h2 {
   color: #000;
@@ -171,7 +169,6 @@ p{
   font-size: 14px;
   color: #93959d;
   font-weight: normal;
-  font-family: 'Open Sans';
   margin: 0;
   line-height: 24px;
 }
