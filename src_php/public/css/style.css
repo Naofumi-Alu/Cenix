@@ -858,7 +858,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 /*Our Work*/
 .our-work {
   padding: 0px;
-  border:5px solid blueviolet;
+  height: 100vh;
 }
 
 .filter {

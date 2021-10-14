@@ -3,9 +3,39 @@
 /*Movile*/
 @media only screen and (max-width: 750px){
 
-body{
+body.main{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fafafa;
+
+    display:grid;
+    grid-template-rows: 
+    /*1*/
+        [nav]14vh
+    /*2*/
+        [SliderMain]50vh
+    /*3*/
+        [solution_services]100vh
+    /*4*/    
+        [portafolio]100vh
+    /*5*/    
+        [ourServicies]100vh
+    /*6*/    
+        [featuresContent]100vh
+    /*7*/    
+        [onWorkPortafolio]100vh
+    /*8*/    
+        [testimonials]80vh
+    /*9*/    
+        [company]80vh
+    /*10*/    
+        [skills]80vh
+    /*11*/    
+        [Customers]45vh
+    /*12*/    
+        [footer]60vh
+   
+    ;
+
 }   
 
 
@@ -39,8 +69,9 @@ Section.SliderMain div.card h1.card-title {
     position: absolute;
     -webkit-text-stroke: 0.5px black;
     font-size: 2.8rem;
-    color: #9E9E9E;
-    text-shadow: 2px 2px 2px #000000;
+    color: #ffffff;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
     font-weight: 800;
     display: flex;
     justify-content: center;
@@ -53,11 +84,11 @@ Section.SliderMain div.card h1.card-title span {
     padding-left: 2%;
 }
 
-/*tarjeta del banner Slide*/
+/*tarjeta gris del banner Slide*/
 Section.SliderMain div.card div.card-img-overlay  {
   position: absolute;
   border: 1px solid rgba(128, 128, 128);
-  height:30%;
+  height:35%;
   width: 75%;
   top:50%;
   left:15%;
@@ -75,6 +106,7 @@ Section.SliderMain div.card div.card-img-overlay p.card-text{
   font-size: 1.2rem;
   color: #EEEEEE;
   font-weight: 800;
+  height: 25vh;
 }
 
 Section.SliderMain div.card img{
@@ -84,7 +116,7 @@ Section.SliderMain div.card img{
 
 .SliderMain{
     position: relative;
-    border: 3px solid salmon;
+    grid-row: SliderMain;
     object-fit: cover;
     opacity: 1;
     z-index: 900;
@@ -116,7 +148,7 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 
 .solution_services{
     position: relative;
-    border: 3px solid gold;
+    grid-row: solution_services;
     height: 100vh;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -127,41 +159,52 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 
 .portafolio{
     position: relative;
-    border: 3px solid blueviolet;
     opacity:1;
+    height: 100vh;
     z-index: 700;
+    grid-row: portafolio;
+    overflow: hidden;
 }
 
-.works{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-}
 
 .ourServicies{
     position: relative;
-    border: 3px solid teal;
+    grid-row: ourServicies;
     opacity:1;
     z-index: 600;
 }
 
 .featuresContent {
     position: relative;
-    border: 3px solid rgb(236, 168, 208);
+    grid-row: featuresContent;
     opacity:1;
     z-index: 500;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .onWorkPortafolio{
     position: relative;
-    border: 3px solid rgb(206, 193, 16);
+    height: 100vh;
     opacity:1;
     z-index: 400;
+    grid-row: onWorkPortafolio/testimonials;
+    overflow:hidden;
+    border: 3px solid black;
+}
+
+
+.works{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+    border:5px solid blue;
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
-    border: 3px solid rgb(29, 225, 231);
+    border: 3px solid red;
     position: relative;
-    padding-left: 0vh;
+    height: 120vh;
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
@@ -172,35 +215,37 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 
 .testimonials{
     position: relative;
-    border: 3px solid rgb(226, 110, 43);
+    grid-row: testimonials;
     opacity:1;
     z-index: 300;
+    height: 80vh;
+    border: 3px solid green;
 }
 
 .company {
     position: relative;
-    border: 3px solid rgb(255, 0, 34);
+    grid-row: company;
     opacity:1;
     z-index: 200;
 }
 
 .skills{
     position: relative;
-    border: 3px solid rgb(57, 56, 151);
+    grid-row: skills;
     opacity:1;
     z-index: 100;
 }
 
 .Customers{
     position: relative;
-    border: 3px solid blueviolet;
+    grid-row: Customers;
     opacity:1;
     z-index: 0;
 }
 
 .footer {
     position: relative;
-    border: 3px solid rgb(17, 247, 189);
+    grid-row: footer;
     opacity:1;
     z-index: -100;
     height: 40vh;
@@ -398,7 +443,7 @@ a{
 
 /*tablets and other device*/
 
-@media only Screen and (max-width: 1500px){
+@media only Screen and (max-width: 1600px){
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -425,19 +470,17 @@ Section.SliderMain div.card div.card-img-overlay {
     
 }
 
-.aboutMore{
-    color: #9E9E9E;
-    background-color: #c4c4c47e;
-    border-radius: 15%;
-    border:1px solid rgba(128, 128, 128);
+.aboutMore-md{
+    opacity:0;
 }
 
 Section.SliderMain div.card h1.card-title {
     position: absolute;
     -webkit-text-stroke: 0.5px black;
     font-size: 2.8rem;
-    color: #9E9E9E;
-    text-shadow: 2px 2px 2px #000000;
+    color: #ffffff;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -450,11 +493,11 @@ Section.SliderMain div.card h1.card-title span {
     padding-left: 2%;
 }
 
-/*tarjeta del banner Slide*/
+/*tarjeta gris  del banner Slide*/
 Section.SliderMain div.card div.card-img-overlay  {
   position: absolute;
   border: 1px solid rgba(128, 128, 128);
-  height:30%;
+  height:38%;
   width: 75%;
   top:50%;
   left:15%;
@@ -472,6 +515,7 @@ Section.SliderMain div.card div.card-img-overlay p.card-text{
   font-size: 1.2rem;
   color: #EEEEEE;
   font-weight: 800;
+  height: 25vh;
 }
 
 Section.SliderMain div.card img{
@@ -481,7 +525,7 @@ Section.SliderMain div.card img{
 
 .SliderMain{
     position: relative;
-    border: 3px solid salmon;
+   
     object-fit: cover;
     opacity: 1;
     z-index: 900;
@@ -513,18 +557,20 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 
 .solution_services{
     position: relative;
-    border: 3px solid gold;
+    
     height: 100vh;
     padding-bottom: 5%;
     padding-top: 5%;
     opacity: 1;
     z-index: 800;
+
+
 }
 
 
 .portafolio{
     position: relative;
-    border: 3px solid blueviolet;
+
     opacity:1;
     z-index: 700;
 }
@@ -536,21 +582,21 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 
 .ourServicies{
     position: relative;
-    border: 3px solid teal;
+
     opacity:1;
     z-index: 600;
 }
 
 .featuresContent {
     position: relative;
-    border: 3px solid rgb(236, 168, 208);
+
     opacity:1;
     z-index: 500;
 }
 
 .onWorkPortafolio{
     position: relative;
-    border: 3px solid rgb(206, 193, 16);
+ 
     opacity:1;
     z-index: 400;
 }
@@ -569,35 +615,35 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 
 .testimonials{
     position: relative;
-    border: 3px solid rgb(226, 110, 43);
+ 
     opacity:1;
     z-index: 300;
 }
 
 .company {
     position: relative;
-    border: 3px solid rgb(255, 0, 34);
+ 
     opacity:1;
     z-index: 200;
 }
 
 .skills{
     position: relative;
-    border: 3px solid rgb(57, 56, 151);
+  
     opacity:1;
     z-index: 100;
 }
 
 .Customers{
     position: relative;
-    border: 3px solid blueviolet;
+ 
     opacity:1;
     z-index: 0;
 }
 
 .footer {
     position: relative;
-    border: 3px solid rgb(17, 247, 189);
+
     opacity:1;
     z-index: -100;
     height: 40vh;
@@ -711,6 +757,7 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     display: flex;
     color: #929ca4;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 
 
@@ -796,7 +843,7 @@ a{
 
 
 /*Desktop*/
-@media only Screen and (min-width: 1500px){
+@media only Screen and (min-width: 1600px){
 
 body{
     font-family: "Open Sans",Arial, Helvetica, sans-serif;
@@ -811,10 +858,9 @@ body{
 Section.SliderMain div.card div.card-img-overlay {
     display: grid;
     grid-template-columns: [texto]2.2fr[middleContent]0.1fr[logo]1fr[endColumn]0.1fr;
-    grid-template-rows: 40%[logoRow]30%[about] 20%[endRow];
+    grid-template-rows: 38%[logoRow]30%[about] 20%[endRow];
     grid-gap:10px;
-    grid-auto-rows: minmax(100px, auto);
-    
+    grid-auto-rows: minmax(100px, auto); 
 }
 
 .button-about{
@@ -843,8 +889,9 @@ Section.SliderMain div.card h1.card-title {
     height: 5vh;
     -webkit-text-stroke: 1px black;
     font-size: 3.7rem;
-    color: #9E9E9E;
-    text-shadow: 2px 2px 2px #000000;
+    color: #ffffff;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
     font-weight: 900;
     -webkit-text-stroke: 0.5px black;
     
@@ -882,7 +929,7 @@ Section.SliderMain div.card img.mainSlide{
 
 .img{
     position: absolute;
-    top:30%;
+    top:25%;
     left:7%;
     width: 90%;
     z-index: 1970;
@@ -907,7 +954,7 @@ Section.SliderMain div.card img.mainSlide{
 
 .SliderMain{
     position: relative;
-    border: 3px solid salmon;
+   
     object-fit: cover;
     opacity: 1;
     z-index: 900;
@@ -941,7 +988,7 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 
 .solution_services{
     position: relative;
-    border: 3px solid gold;
+
     height: 100vh;
     opacity: 1;
     z-index: 800;
@@ -954,17 +1001,31 @@ Section.solution_services div.container h1.main-title{
 
 .portafolio{
     position: relative;
-    border: 3px solid blueviolet;
     opacity:1;
     z-index: 700;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 5%; 
+
+    display: grid;
+    grid-template-columns: [col1]33.3% [col2]33.3% [col3]33.3%;
+    grid-template-rows: [firstRow]25%[fila1]25%[fila2]25% [fila3]25%;
+    
+
+}
+
+
+.titulo{
+    height: auto;
+    border:5px solid red;
+    grid-row:span firstRow;
+    grid-column:col2;
+    justify-self: center;
 }
 
 /*Imagenes de trabajos del portafolio*/
 .portafolio ul.filter-container div.container li div.overlay img{
-    border: 3px solid rgb(3, 142, 167);
+
     object-fit: cover;
     height: 40vh;
     width: 30vh;
@@ -972,7 +1033,7 @@ Section.solution_services div.container h1.main-title{
 
 .ourServicies{
     position: relative;
-    border: 3px solid teal;
+
     opacity:1;
     z-index: 600;
     padding-right: 10%;
@@ -996,7 +1057,7 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 
 .featuresContent {
     position: relative;
-    border: 3px solid rgb(236, 168, 208);
+  
     opacity:1;
     z-index: 500;
     padding-right: 10%;
@@ -1012,7 +1073,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .onWorkPortafolio{
     position: relative;
-    border: 3px solid rgb(206, 193, 16);
+   
     opacity:1;
     z-index: 400;
     padding-right: 10%;
@@ -1022,7 +1083,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .testimonials{
     position: relative;
-    border: 3px solid rgb(226, 110, 43);
+ 
     opacity:1;
     z-index: 300;
     padding-right: 10%;
@@ -1032,7 +1093,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .company {
     position: relative;
-    border: 3px solid rgb(255, 0, 34);
+   
     opacity:1;
     z-index: 200;
     padding-right: 10%;
@@ -1042,7 +1103,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .skills{
     position: relative;
-    border: 3px solid rgb(57, 56, 151);
+  
     opacity:1;
     z-index: 100;
     padding-right: 10%;
@@ -1053,7 +1114,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .Customers{
     position: relative;
-    border: 3px solid blueviolet;
+
     opacity:1;
     z-index: 0;
     padding-right: 10%;
@@ -1063,7 +1124,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 .footer {
     position: relative;
-    border: 3px solid rgb(17, 247, 189);
+    
     opacity:1;
     z-index: -100;
     height: 40vh;

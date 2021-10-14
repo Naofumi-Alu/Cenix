@@ -2,7 +2,7 @@
 <?php include ('./src_php/Views/partials/head.html') ?>
 
 
-<body>
+<body class="main">
 	
 <?php include ('./src_php/Views/partials/Navigation.html') ?>
 
@@ -19,11 +19,11 @@
                 
                 <!-- card text -->
 				<div class="card-img-overlay row">
-					<p class="h4 card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>		
+					<p class="h4 card-text">Acompañamiento permanente en la implementación de sus proyectos <br>Personal altamente calificado y multi disciplinario <br>Cubrimos diferentes sectores para suplir sus necesidades</p>		
 					<div class="formating">
 						<img class="img" id="opacitiTrue-md" src="./src_php/public/images/cenix.png" class="img-fluid responsive" alt="logo" />
                     </div>
-                    <div class="divButton container">
+                    <div class="aboutMore-md divButton container">
                         <a class="button-about" role="button" data-bs-toggle="button" href="#">Descubre más</a>
                     </div>	
 				</div>
@@ -464,7 +464,7 @@
 <!-- our work portfolio -->
 	<section class="container-fluid onWorkPortafolio">
 			<!-- our work portfolio -->
-			<div class="our-work">
+			<div class="">
 				
 				<div class="container">
 					<h1 class="main-title">Ultimos <span class="color">proyectos</span></h1>
@@ -481,8 +481,8 @@
 							</ul>
 						</div>
 						<div class="clear"></div>
-						<div class="works clearfix">
-							<ul class="filter-container home-filter clearfix">
+						<div class="clearfix">
+							<ul class="works filter-container home-filter clearfix">
 								<li class="class1">
 									<div class="overlay">
 									    <img src="./src_php/public/images/Proyectos/cctv.jpg"  alt="" />
@@ -573,7 +573,7 @@
 					<p class="main-subtitle">Que dicen los cliente sobre nosotros</p>
 				
 					
-					<div class="testimonials">
+					<div class="">
 						<ul class="bxslider">
 				          <li>
 				          		<div class="test-content">
