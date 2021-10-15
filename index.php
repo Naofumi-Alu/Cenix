@@ -32,327 +32,275 @@
 <!-- END REVOLUTION SLIDER -->
 
 <!--Soluciones y Servicios-->
-	<section class="container-fluid solution_services">
-		
-		<!--================ CARRUSEL    =================================-->
-		
-		<!--con indicadores-->
-		<div id="content" class="container">
-			<h1 class="main-title">Soluciones y <span class="color">Servicios</span></h1>
+      <section class="container-fluid solution_services">
 
-			<div class="main-border"></div>	
+        <!--================ CARRUSEL    =================================-->
+
+        <!--con indicadores-->
+        <div id="content" class="container">
+         
+          <!-- ====================== Solucuibes y servicios tarjeta  ====================================-->
+
+          <div class="row">
 
 
-			<!-- ====================== Solucuibes y servicios tarjeta  ====================================-->
+            <!-- Card del carrusel -->
+            <div class="cardFormat-sm cardFormat-md cardFormat-lg container card " >
 
-			<div class="row">
-				
-			
-				<!-- Card del carrusel -->
-				<div class="cardFormat-sm cardFormat-lg container card col-md-6" >
-						
-					<!--Carrusel con controles  -->
-					<!-- ==== Card Body ====-->
-					<ul id="container contentItemCarrusel" class="slider card-body">
-						
-						<li class="itemCarrusel" id="itemCarrusel-1">
+               <div class="container">
+                    <h1 class="main-title">Soluciones y <span class="color">Servicios</span></h1>
 
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="..." width="430rem" height ="235rem">
+                    <div class="main-border"></div>	
+               </div>
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-7">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-2">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-								
-							</div>
+              <!--Carrusel con controles  -->
+              <!-- ==== Card Body ====-->
+              <ul id="container contentItemCarrusel" class="slider card-body">
+                  
+                  <div class="contentCard-lg">
+                      <li class="itemCarrusel" id="itemCarrusel-1">
 
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title-Solucion">Soluciones y <span>Servicios</span></h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</li>
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/tics370x250.jpg"  alt="..." width="430rem" height ="235rem">
 
-						<li class="itemCarrusel" id="itemCarrusel-2">
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-7">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-2">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
+                        </div>
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-1">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-3">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Edificios inteligentes</h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
-							</div>
-						</li>
-						
-						<li class="itemCarrusel" id="itemCarrusel-3">
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title-Solucion">Soluciones y <span>Servicios</span></h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+                        </div>
+                      </li>
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" alt="" width="430rem" height ="235rem"> > 
+                      <li class="itemCarrusel" id="itemCarrusel-2">
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-2">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-4">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-								
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Movilidad</h5>
-								<p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana./p>
-							</div>
-						</li>
 
-						
-						<li class="itemCarrusel" id="itemCarrusel-4">
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" alt="" width="430rem" height ="235rem">>
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-1">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-3">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+                        </div>
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-3">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-5">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-								
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Seguridad vial</h5>
-								<p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
-							</div>
-						</li>
 
-						<li class="itemCarrusel" id="itemCarrusel-5">
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Edificios inteligentes</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
+                        </div>
+                      </li>
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/software370x250.jpg" alt="" width="430rem" height ="235rem">>
+                      <li class="itemCarrusel" id="itemCarrusel-3">
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-4">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-6">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-								
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Software</h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
-							</div>
-						</li>
 
-						<li class="itemCarrusel" id="itemCarrusel-6">
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Movilidad370x250.jpg" alt="" width="430rem" height ="235rem"> > 
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/IoT370x250.jpg" alt="" width="430rem" height ="235rem">>
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-2">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-4">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-5">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-7">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-								
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">IoT</h5>
-								<p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico.</p>
-							</div>
-						</li>
+                        </div>
 
-						<li class="itemCarrusel" id="itemCarrusel-7">
 
-							
-							<!-- slides imagenes-->
-							<div class="item-image">
-								<img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Energia370x250.jpg" alt="" width="430rem" height ="235rem">>
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Movilidad</h5>
+                          <p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana./p>
+                        </div>
+                      </li>
 
-								<!--Button Prev, Next-->
-								<div class="flechasCarrusel">
-									<a href="#itemCarrusel-6">
-										<i class="carousel-control-prev-icon"></i>
-									</a>
-									<a href="#itemCarrusel-1">
-										<i class="carousel-control-next-icon"></i>
-									</a>
-								</div>
-							</div>
-						
-							
-							<!-- Contenido tarjeta-->	
-							<div class="textCarrusel">
-								<h5 class="card-title">Energía</h5>
-								<p class="card-text">Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
-							</div>
-						</li>
 
-						<!--controles-->
+                      <li class="itemCarrusel" id="itemCarrusel-4">
 
-						<div id="contePuntos"class="container">
-							<a href="#itemCarrusel-1"></a>
-							<a href="#itemCarrusel-2"></a>
-							<a href="#itemCarrusel-3"></a>
-							<a href="#itemCarrusel-4"></a>
-							<a href="#itemCarrusel-5"></a>
-							<a href="#itemCarrusel-6"></a>
-							<a href="#itemCarrusel-7"></a>
-						</div>
 
- 					<ul>
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Seguridadvial370x250.jpg" alt="" width="430rem" height ="235rem">>
 
-				
-				</div>
-			</div>
-		</div>	
-	</section>
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-3">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-5">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Seguridad vial</h5>
+                          <p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-5">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/software370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-4">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-6">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Software</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-6">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/IoT370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-5">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-7">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">IoT</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-7">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="./src_php/public/images/Soluciones/Energia370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-6">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-1">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Energía</h5>
+                          <p class="card-text">Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
+                        </div>
+                      </li>
+                    
+                         <!--controles-->
+
+                      <div id="contePuntos"class="container">
+                        <a href="#itemCarrusel-1"></a>
+                        <a href="#itemCarrusel-2"></a>
+                        <a href="#itemCarrusel-3"></a>
+                        <a href="#itemCarrusel-4"></a>
+                        <a href="#itemCarrusel-5"></a>
+                        <a href="#itemCarrusel-6"></a>
+                        <a href="#itemCarrusel-7"></a>
+                      </div>
+                 </div>
+           
+
+              <ul>
+
+
+            </div>
+          </div>
+        </div>	
+      </section>
 <!--End Soluciones y Servicios-->
 
 
 <!-- our work portfolio -->
-	<section class="container-fluid portafolio">
-		<div class="our-work brown-bg">
-            <!--titulo-->
-			<div class="titulo">
-				<h1 class="main-title">Unidades de <span class="color"> negocio</span>
-				</h1>
-
-				<div class="main-border">
-				</div>
-					
-				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
-			</div>
-			<!--formatPortafolio-->
-			<div class="works">
-				<ul class="">
-					<li class="class1">
-						<div class="overlay">
-							<img class="cols1"src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
-							<a href="#">
-								<div class="mask">
-									<div class="bottom-post">
-										<h2>Proyectos y soluciones</h2>
-										<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li class="class2">
-						<div class="overlay">
-							<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
-							<a href="">
-								<div class="mask">
-									<div class="bottom-post">
-										<h2>Servicios</h2>
-										<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li class="class3">
-						<div class="overlay">
-							<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
-							<a href=""><div class="mask">
-								<div class="bottom-post">
-									<h2>Comercialización</h2>
-									<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li class="class4">
-						<div class="overlay">
-							<img class="cols1" src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
-							<a href=""><div class="mask">
-								<div class="bottom-post">
-									<h2>iR&D</h2>
-									<p>Desarrollo de soluciones de software y hardware a la medida. </p>
-								</div>
-							</a>
-						</div>
-					</li>				
-					<li class="class1">
-						<div class="overlay">
-							<img class="cols2" src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" alt="" />
-							<a href=""><div class="mask">
-								<div class="bottom-post">
-									<h2>Ingenieria</h2>
-									<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li class="class2">
-						<div class="overlay">
-							<img class="cols3" src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
-							<a href=""><div class="mask">
-								<div class="bottom-post">
-									<h2>Consultorías</h2>
-									<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
-								</div>
-							</a>
-						</div>
-					</li>
-				</ul>	
+	<section class="containter-Portafolio container-fluid portafolio">
+		<div class="contenedor">
+            <div class="imagen actual">
+                <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
+                <div class="texto">Lago Tahoe</div>
             </div>
-            <a href="#" class="learn-more">More works</a>	
-		</div>
+
+            <div class="imagen">
+                <img src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" />
+                <div class="texto">Parque Nacional Redwood</div>
+            </div>
+
+            <div class="imagen">
+                <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" />
+                <div class="texto">Yellowstone</div>
+            </div>
+
+            <div class="imagen">
+                <img src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" />
+                <div class="texto">Parque Nacional Yosemite</div>
+            </div>
+
+            <a href="#" class="anterior" onclick="anterior();">&#10094;</a>
+            <a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+
+            <div class="puntos">
+                <span class="punto activo" onclick="mostrar(0);"></span>
+                <span class="punto" onclick="mostrar(1);"></span>
+                <span class="punto" onclick="mostrar(2);"></span>
+                <span class="punto" onclick="mostrar(3);"></span>
+            </div>
+        </div>
 	</section>
 <!-- End Portfolio -->	
 

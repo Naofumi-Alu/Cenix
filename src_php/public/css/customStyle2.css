@@ -1,5 +1,4 @@
-
-
+/*Custom Style2 css*/
 /*Movile*/
 @media only screen and (max-width: 750px){
 
@@ -316,7 +315,8 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10%
+    padding:10%;
+    color: #EEEEEE;
 }
 
 .iconFlechas-D{
@@ -422,7 +422,15 @@ a{
    padding-left: 7.5%; 
    height: 72vh;
    background-color: #fafafa;
+
 }
+  
+ /*content card Solution and Services*/ 
+  .slider {
+    display: flex;
+    justify-content:center;
+    align-items:space-around;
+  } 
 
 #padreNav{
     position: relative;
@@ -817,11 +825,19 @@ a{
 }
 
 /*formatea la tarjeta de Soluciones y servicios*/
-.cardFormat-sm{
+.cardFormat-md{
    padding-left: 7.5%; 
    height: 72vh;
    background-color: #fafafa;
 }
+  
+   
+ /*content card Solution and Services*/ 
+  .slider {
+    display: flex;
+    justify-content:center;
+    align-items:space-around;
+  }
 
 #padreNav{
     position: relative;
@@ -1006,12 +1022,6 @@ Section.solution_services div.container h1.main-title{
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 5%; 
-
-    display: grid;
-    grid-template-columns: [col1]33.3% [col2]33.3% [col3]33.3%;
-    grid-template-rows: [firstRow]25%[fila1]25%[fila2]25% [fila3]25%;
-    
-
 }
 
 
@@ -1159,13 +1169,13 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 #contentItemCarrusel{
     position: relative;
-    /*border: 5px solid rgb(248, 0, 0);*/
     height: 70vh;
     width: auto;
 }
 
 .itemCarrusel{
-    position: relative;
+    display:flex;
+    position:absolute;
     align-items: center;
     height: auto;
     width: auto;
@@ -1173,13 +1183,13 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 
 
 .item-image{
-    position: absolute;
     top: 5vh;
-    height: 30vh;
-    width: 55vh;
+    height: 50vh;
+    width: 100vh;
 }
 
 .imagenCarrusel{
+    display:flex ;
     height:100%;
     width: 100%;
 }
@@ -1214,8 +1224,8 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 .textCarrusel{
     position: absolute;
     top:35vh;
-    height: 30vh;
-    width: 55vh;
+    height: 50%;
+    width: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: "Open Sans",Arial, Helvetica, sans-serif; 
 }
@@ -1245,7 +1255,6 @@ ul.slider{
 }
 
 ul.slider li {
-    position: absolute;
     opacity: 0;
     transition: 0.3s; 
     background-color: white;
@@ -1273,10 +1282,11 @@ a{
     position:relative;
     display: flex;
     justify-content: space-around;
-    top: 60vh;
-    right: 8%;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 80%;
+    padding-bottom: 10%;
+    align-items:end;
+   
 }
 
 #contePuntos >a{
@@ -1291,11 +1301,26 @@ a{
 }
 
 
-.cardFormat-sm{
-   padding-left: 7%; 
-   height: 72vh;
-   background-color: #fafafa;
+.cardFormat-lg{
+    height: 100vh;
+    display: flex;
+    background-color: #fafafa;
+
 }
+  
+  .contentCard-lg{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+   
+  }
+  
+ /*content card Solution and Services*/ 
+  .slider {
+    justify-content:center;
+    align-items:space-around;
+  }
 
 #padreNav{
     position: relative;
@@ -1308,6 +1333,3 @@ a{
 }
 
 }
-
-
-
