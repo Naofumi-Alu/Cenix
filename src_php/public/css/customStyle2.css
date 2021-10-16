@@ -1026,8 +1026,8 @@ Section.solution_services div.container h1.main-title{
 
 
 .titulo{
+    margin-top:10%;
     height: auto;
-    border:5px solid red;
     grid-row:span firstRow;
     grid-column:col2;
     justify-self: center;

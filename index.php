@@ -270,6 +270,18 @@
 
 <!-- our work portfolio -->
 	<section class="containter-Portafolio container-fluid portafolio">
+
+        <!--titulo-->
+			<div class="titulo">
+				<h1 class="main-title">Unidades de <span class="color"> negocio</span>
+				</h1>
+
+				<div class="main-border">
+				</div>
+					
+				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
+			</div>    
+
 		<div class="contenedor">
             <div class="imagen actual">
                 <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
