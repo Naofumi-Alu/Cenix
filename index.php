@@ -1,4 +1,5 @@
 <!--Header-->
+<noscript>You need to enable JavaScript to run this app.</noscript>
 <?php include ('./src_php/Views/partials/head.html') ?>
 
 
@@ -265,7 +266,7 @@
 
 
 <!-- our work portfolio -->
-	<section class="containter-Portafolio container-fluid portafolio">
+	<section id="portafolioSliders" class="containter-Portafolio container-fluid portafolio">
 
         <!--titulo-->
 			<div class="titulo">
@@ -278,7 +279,7 @@
 				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
 			</div>    
 
-		<div class="contenedor">
+		<div class="contenedor-md">
             <div class="imagen actual">
                 <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
                 <div class="texto">Lago Tahoe</div>
@@ -295,18 +296,57 @@
             </div>
 
             <div class="imagen">
-                <img src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" />
+                <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" />
                 <div class="texto">Parque Nacional Yosemite</div>
             </div>
 
-            <a href="#" class="anterior" onclick="anterior();">&#10094;</a>
-            <a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+            <a href="#portafolioSliders" class="anterior" onclick="anterior();">&#10094;</a>
+            <a href="#portafolioSliders" class="siguiente" onclick="siguiente();">&#10095;</a>
 
             <div class="puntos">
                 <span class="punto activo" onclick="mostrar(0);"></span>
                 <span class="punto" onclick="mostrar(1);"></span>
                 <span class="punto" onclick="mostrar(2);"></span>
                 <span class="punto" onclick="mostrar(3);"></span>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="item1">
+                <div class="imagenP">
+                    <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="">
+                </div>
+                <div class="textP">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
+                    </p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="imagenP">
+                    <img src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="">
+                </div>
+                <div class="textP">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
+                    </p>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="imagenP">
+                    <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="">
+                </div>
+                <div class="textP">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
+                    </p>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="imagenP">
+                    <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="">
+                </div>
+                <div class="textP">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
+                    </p>
+                </div> 
             </div>
         </div>
 	</section>

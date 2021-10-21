@@ -39,6 +39,7 @@ body.main{
 
 
 
+
 .navegacion{
     position:relative;
     z-index: 1000;
@@ -465,7 +466,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fafafa;
 }   
-
 
 
 .navegacion{
@@ -1036,13 +1036,7 @@ Section.solution_services div.container h1.main-title{
 }
 
 
-.titulo{
-    margin-top:10%;
-    height: auto;
-    grid-row:span firstRow;
-    grid-column:col2;
-    justify-self: center;
-}
+
 
 /*Imagenes de trabajos del portafolio*/
 .portafolio ul.filter-container div.container li div.overlay img{
