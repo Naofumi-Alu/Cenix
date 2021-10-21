@@ -23,7 +23,7 @@
 					<div class="formating">
 						<img class="img" id="opacitiTrue-md" src="./src_php/public/images/cenix.png" class="img-fluid responsive" alt="logo" />
                     </div>
-                    <div class="aboutMore-md divButton container">
+                    <div class="aboutMore-md aboutMore-sm divButton container">
                         <a class="button-about" role="button" data-bs-toggle="button" href="#">Descubre más</a>
                     </div>	
 				</div>
@@ -55,9 +55,9 @@
 
               <!--Carrusel con controles  -->
               <!-- ==== Card Body ====-->
-              <ul id="container contentItemCarrusel" class="slider card-body">
+                <ul id="container contentItemCarrusel" class="slider card-body">
                   
-                  <div class="contentCard-lg">
+                    <div class="contentCard-lg contentCard-md contentCard-sm">
                       <li class="itemCarrusel" id="itemCarrusel-1">
 
                         <!-- slides imagenes-->
@@ -255,12 +255,8 @@
                         <a href="#itemCarrusel-6"></a>
                         <a href="#itemCarrusel-7"></a>
                       </div>
-                 </div>
-           
-
-              <ul>
-
-
+                    </div>
+                </ul>
             </div>
           </div>
         </div>	

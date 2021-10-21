@@ -99,6 +99,10 @@ Section.SliderMain div.card div.card-img-overlay  {
 }
 
 
+Section.SliderMain div.card div.card-img-overlay div.aboutMore-sm {
+    opacity: 0;
+}
+
 /*texto tarjeta del banner Slide*/
 Section.SliderMain div.card div.card-img-overlay p.card-text{
   text-align: center;
@@ -141,7 +145,6 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 /*fotmat title card*/
 Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title span{
     position: absolute;
-    left: 14vh;
 }
 
 
@@ -288,16 +291,15 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     position: relative;
     align-items: center;
     height: auto;
-    width: auto;
+    
 }
 
 /*Carrusel items*/
 
 .item-image{
-    position: absolute;
     top: 5vh;
     height: 30vh;
-    width: 55vh;
+    width: 100vh;
   
 }
 
@@ -340,7 +342,7 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     position: absolute;
     top:35vh;
     height: 30vh;
-    width: 55vh;
+    width: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: "Open sans",Arial, Helvetica, sans-serif;
 }
@@ -398,11 +400,11 @@ a{
 
 #contePuntos{
     position:relative;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    top: 60vh;
-    border:5px solid red;
+    display:flex;
+    width: 80vh;
+    height: auto;
+    align-items: end;
+    justify-content: space-around;  
 }
 
 #contePuntos >a{
@@ -414,22 +416,28 @@ a{
     align-items: center;
     background-color:#f52f0363 ;
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3) ;
-    border:5px solid orange;
 }
 
 /*formatea la tarjeta de Soluciones y servicios*/
 .cardFormat-sm{
    padding-left: 7.5%; 
    height: 72vh;
+   width: 100vh;
    background-color: #fafafa;
 
 }
-  
+ 
+ .contentCard-sm{
+    display:flex;
+    height:120%;
+    justify-content:center;
+  }
+
  /*content card Solution and Services*/ 
   .slider {
     display: flex;
     justify-content:center;
-    align-items:space-around;
+
   } 
 
 #padreNav{
@@ -451,7 +459,7 @@ a{
 
 /*tablets and other device*/
 
-@media only Screen and (max-width: 1600px){
+@media only Screen and (min-width:750px) and (max-width: 1600px){
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -533,7 +541,6 @@ Section.SliderMain div.card img{
 
 .SliderMain{
     position: relative;
-   
     object-fit: cover;
     opacity: 1;
     z-index: 900;
@@ -692,7 +699,8 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 }
 
 .itemCarrusel{
-    position: relative;
+    display:flex;
+    position:absolute;
     align-items: center;
     height: auto;
     width: auto;
@@ -701,11 +709,9 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 /*Carrusel items*/
 
 .item-image{
-    position: absolute;
     top: 5vh;
     height: 30vh;
-    width: 55vh;
-  
+    width: 100vh;
 }
 
 .imagenCarrusel{
@@ -746,7 +752,7 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     position: absolute;
     top:35vh;
     height: 30vh;
-    width: 55vh;
+    width: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: "Open sans",Arial, Helvetica, sans-serif;
 }
@@ -802,18 +808,17 @@ a{
     text-decoration: none;
     color: rgb(68, 66, 66);
 }
-
 #contePuntos{
     position:relative;
     display: flex;
-    align-content: center;
     justify-content: space-around;
-    top: 60vh;
-    border:5px solid red;
+    height: auto;
+    width: 80vh;
+    align-items:end;
 }
 
 #contePuntos >a{
-    display: flex;
+    display: inline-block;
     border-radius: 100%;
     font-size: 2rem;
     height:30px ;
@@ -821,7 +826,6 @@ a{
     align-items: center;
     background-color:#f52f0363 ;
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3) ;
-    border:5px solid orange;
 }
 
 /*formatea la tarjeta de Soluciones y servicios*/
@@ -832,6 +836,13 @@ a{
 }
   
    
+ .contentCard-md{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+  }
+
  /*content card Solution and Services*/ 
   .slider {
     display: flex;
@@ -1286,7 +1297,6 @@ a{
     width: 80%;
     padding-bottom: 10%;
     align-items:end;
-   
 }
 
 #contePuntos >a{
@@ -1313,7 +1323,6 @@ a{
     height:100%;
     width:100%;
     justify-content:center;
-   
   }
   
  /*content card Solution and Services*/ 
