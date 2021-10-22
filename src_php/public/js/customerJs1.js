@@ -51,3 +51,122 @@ function playpause() {
     boton.src = "http://www.reciclay.com.ve/gio/play.png";
   }
 }
+
+
+
+
+function mostrar(){
+document.getElementById('#containter-Portafolio-JavasCript').innerHTML = 
+`
+<!-- content portafolio -->
+	
+
+        <div class="imagenPortafolio1">
+            <img src="" alt="">
+        </div>
+        <div class="textPortafolio1">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio2">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio2">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio3">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio3">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio4">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio4">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio5">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio5">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio6">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio6">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio7">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio7">
+            <p class="loremipsum20"></p>
+        </div>    
+
+`;
+}
+
+function ocultar(){
+    document.getElementById('#containter-Portafolio-JavasCript').innerHTML = 
+    `
+    <!-- content portafolio -->
+	 <div class="imagenPortafolio1">
+            <img src="" alt="">
+        </div>
+        <div class="textPortafolio1">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio2">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio2">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio3">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio3">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio4">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio4">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio5">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio5">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio6">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio6">
+            <p class="loremipsum20"></p>
+        </div>
+
+        <div class="imagenPortafolio7">
+               <img src="" alt="">
+        </div>
+        <div class="textPortafolio7">
+            <p class="loremipsum20"></p>
+        </div>  
+    `;
+
+}
+
+/*javascript:mostrar()"*/ 

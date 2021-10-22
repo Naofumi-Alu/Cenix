@@ -269,7 +269,7 @@
 	<section id="portafolioSliders" class="containter-Portafolio container-fluid portafolio">
 
         <!--titulo-->
-			<div class="titulo">
+		<div class="titulo">
 				<h1 class="main-title">Unidades de <span class="color"> negocio</span>
 				</h1>
 
@@ -277,9 +277,9 @@
 				</div>
 					
 				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
-			</div>    
+		</div>    
 
-		<div class="contenedor-md">
+		<div id="#containter-Portafolio-JavasCript" class="contenedor-md">
             <div class="imagen actual">
                 <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
                 <div class="texto">Lago Tahoe</div>
@@ -311,44 +311,8 @@
             </div>
         </div>
 
-        <div class="contenedor">
-            <div class="item1">
-                <div class="imagenP">
-                    <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="">
-                </div>
-                <div class="textP">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
-                    </p>
-                </div>
-            </div>
-            <div class="item2">
-                <div class="imagenP">
-                    <img src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="">
-                </div>
-                <div class="textP">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
-                    </p>
-                </div>
-            </div>
-            <div class="item3">
-                <div class="imagenP">
-                    <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="">
-                </div>
-                <div class="textP">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
-                    </p>
-                </div>
-            </div>
-            <div class="item4">
-                <div class="imagenP">
-                    <img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="">
-                </div>
-                <div class="textP">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore iste recusandae corrupti exercitationem minus, illo eveniet et quam voluptatum dicta, fugiat excepturi accusamus laudantium magni ducimus blanditiis atque omnis?
-                    </p>
-                </div> 
-            </div>
-        </div>
+       
+
 	</section>
 <!-- End Portfolio -->	
 
