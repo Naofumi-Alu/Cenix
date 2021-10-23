@@ -164,6 +164,7 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
     position: relative;
     opacity:1;
     height: 100vh;
+    width: 870px;
     z-index: 700;
     grid-row: portafolio;
     overflow: hidden;

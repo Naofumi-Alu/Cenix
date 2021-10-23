@@ -279,7 +279,7 @@
 				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
 		</div>    
 
-		<div id="#containter-Portafolio-JavasCript" class="contenedor-md">
+		<div  class="contenedor-md">
             <div class="imagen actual">
                 <img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
                 <div class="texto">Lago Tahoe</div>
@@ -310,7 +310,163 @@
                 <span class="punto" onclick="mostrar(3);"></span>
             </div>
         </div>
+        
+        
+        <!-- content portafolio -->
+        <!--
+        <div class="contenedor-lg">
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio1">
+                    <img class="imgclass"src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
+                </div>
+                <div class="textPortafolio1">
+                    <p class="loremipsum20"></p>
+                </div>
+            </div>
 
+            <div class="itemsPortafolio-lg">
+                 <div class="imagenPortafolio2">
+                    <img class="imgclass" src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
+                </div>
+                <div class="textPortafolio2">
+                    <p class="loremipsum20"></p>
+                </div>
+            </div>
+
+                
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio3">
+                    <img class="imgclass" src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
+                </div>
+                <div class="textPortafolio3">
+                    <p class="loremipsum20"></p>
+                </div>
+            </div>
+                    
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio4">
+                        <img class="imgclass" src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
+                    </div>
+                    <div class="textPortafolio4">
+                        <p class="loremipsum20"></p>
+                    </div>
+            </div>
+                    
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio5">
+                       <img class="imgclass" src="./src_php/public/images/ProyectosSoluciones/ingenieria.png" alt="" />
+                </div>
+                <div class="textPortafolio5">
+                     <p class="loremipsum20"></p>
+                </div>
+            </div>
+                    
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio6">
+                        <img class="imgclass" src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
+                </div>
+                <div class="textPortafolio6">
+                    <p class="loremipsum20"></p>
+                </div>
+            </div>    
+            <div class="itemsPortafolio-lg">
+                <div class="imagenPortafolio7">
+                    <img class="imgclass "src="" alt="">
+                </div>
+                <div class="textPortafolio7">
+                    <p class="loremipsum20"></p>
+                </div>  
+            </div>
+                    
+        </div>
+        --> 
+        <!-- our work portfolio -->
+		<div class="our-work brown-bg">
+				
+						<div class="container">
+							
+							<div class="filters demo1">
+								
+								<div class="clear"></div>
+								<div class="clearfix">
+									<ul class="contenedor-lg contenedor-lg-Portafolio filter-container home-filter clearfix">
+										<li class="class1">
+											<div class="overlay">
+												<img src="./src_php/public/images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>Proyectos y soluciones</h2>
+														<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+										<li class="class2">
+											<div class="overlay">
+												<img src="./src_php/public/images/ProyectosSoluciones/Servicios.jpg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>Servicios</h2>
+														<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+										<li class="class3">
+											<div class="overlay">
+												<img src="./src_php/public/images/ProyectosSoluciones/Comercializacion.jpeg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>Comercialización</h2>
+														<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+										<li class="class4">
+											<div class="overlay">
+												<img src="./src_php/public/images/ProyectosSoluciones/IR&D.jpg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>iR&D</h2>
+														<p>Desarrollo de soluciones de software y hardware a la medida. </p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+										<li class="class1">
+											<div class="overlay">
+												<img src="https://retos-operaciones-logistica.eae.es/wp-content/uploads/2018/05/iStock-869287090-600x426.jpg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>Ingenieria</h2>
+														<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+										<li class="class2">
+											<div class="overlay">
+												<img src="./src_php/public/images/ProyectosSoluciones/consultoria.jpg" alt="" />
+												 <a href="#"><div class="mask">
+													<div class="bottom-post">
+														<h2>Consultorías</h2>
+														<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
+													</div>
+												</div></a>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="learn-more">More works</a>
+		
+									
+						</div>
+						<!-- End Portfolio -->
+		
+		</div>
        
 
 	</section>
@@ -442,7 +598,7 @@
 						</div>
 						<div class="clear"></div>
 						<div class="clearfix">
-							<ul class="works filter-container home-filter clearfix">
+							<ul class="contenedor-lg works filter-container home-filter clearfix">
 								<li class="class1">
 									<div class="overlay">
 									    <img src="./src_php/public/images/Proyectos/cctv.jpg"  alt="" />
