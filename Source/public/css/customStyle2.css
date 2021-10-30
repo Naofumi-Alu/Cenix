@@ -1,0 +1,1367 @@
+/*Custom Style2 css*/
+/*Movile*/
+@media only screen and (max-width: 750px){
+
+body.main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+
+    display:grid;
+    grid-template-rows: 
+    /*1*/
+        [nav]14vh
+    /*2*/
+        [SliderMain]50vh
+    /*3*/
+        [solution_services]100vh
+    /*4*/    
+        [portafolio]100vh
+    /*5*/    
+        [ourServicies]100vh
+    /*6*/    
+        [featuresContent]100vh
+    /*7*/    
+        [onWorkPortafolio]100vh
+    /*8*/    
+        [testimonials]80vh
+    /*9*/    
+        [company]80vh
+    /*10*/    
+        [skills]80vh
+    /*11*/    
+        [Customers]45vh
+    /*12*/    
+        [footer]60vh
+   
+    ;
+
+}   
+
+
+
+.navegacion{
+    position:relative;
+    z-index: 1000;
+}
+
+#opacitiTrue-md{
+    opacity: 0;
+}
+
+/*Contenedor padre de tarjeta de texto, titulo y logo dentro del banner Slide*/
+Section.SliderMain div.card div.card-img-overlay {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+.aboutMore{
+    color: #9E9E9E;
+    background-color: #c4c4c47e;
+    border-radius: 15%;
+    border:1px solid rgba(128, 128, 128);
+}
+
+Section.SliderMain div.card h1.card-title {
+    position: absolute;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 2.8rem;
+    color: #ffffff;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    top:5%;
+}
+
+Section.SliderMain div.card h1.card-title span {
+
+    color: #F52E03;
+    padding-left: 2%;
+}
+
+/*tarjeta gris del banner Slide*/
+Section.SliderMain div.card div.card-img-overlay  {
+  position: absolute;
+  border: 1px solid rgba(128, 128, 128);
+  height:35%;
+  width: 75%;
+  top:50%;
+  left:15%;
+  /* Flex Box*/
+  display: flex;
+  background-color:#c4c4c47e;
+  border-radius: 15px;
+  -webkit-text-stroke: .1px black;
+}
+
+
+Section.SliderMain div.card div.card-img-overlay div.aboutMore-sm {
+    opacity: 0;
+}
+
+/*texto tarjeta del banner Slide*/
+Section.SliderMain div.card div.card-img-overlay p.card-text{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #EEEEEE;
+  font-weight: 800;
+  height: 25vh;
+}
+
+Section.SliderMain div.card img{
+    height: 50vh;
+}
+
+
+.SliderMain{
+    position: relative;
+    grid-row: SliderMain;
+    object-fit: cover;
+    opacity: 1;
+    z-index: 900;
+    height: 51vh;
+}
+/*title card*/
+/*firstchild*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title-Solucion {
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #929ca4;
+}
+
+
+
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel p.card-text {
+    top:8vh;
+    text-align: justify;
+    position: absolute;
+}
+
+/*fotmat title card*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title span{
+    position: absolute;
+}
+
+
+.solution_services{
+    position: relative;
+    grid-row: solution_services;
+    height: 100vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    opacity: 1;
+    z-index: 800;
+}
+
+
+.portafolio{
+    position: relative;
+    opacity:1;
+    height: 100vh;
+    z-index: 700;
+    grid-row: portafolio;
+    overflow: hidden;
+}
+
+
+.ourServicies{
+    position: relative;
+    grid-row: ourServicies;
+    opacity:1;
+    z-index: 600;
+}
+
+.featuresContent {
+    position: relative;
+    grid-row: featuresContent;
+    opacity:1;
+    z-index: 500;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.onWorkPortafolio{
+    position: relative;
+    height: 100vh;
+    opacity:1;
+    z-index: 400;
+    grid-row: onWorkPortafolio/testimonials;
+    overflow:hidden;
+    border: 3px solid black;
+}
+
+
+.works{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+    border:5px solid blue;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
+    border: 3px solid red;
+    position: relative;
+    height: 120vh;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
+    border: 3px solid rgb(32, 73, 209);
+    height: 25vh;
+    object-fit: cover;
+}
+
+.testimonials{
+    position: relative;
+    grid-row: testimonials;
+    opacity:1;
+    z-index: 300;
+    height: 80vh;
+    border: 3px solid green;
+}
+
+.company {
+    position: relative;
+    grid-row: company;
+    opacity:1;
+    z-index: 200;
+}
+
+.skills{
+    position: relative;
+    grid-row: skills;
+    opacity:1;
+    z-index: 100;
+}
+
+.Customers{
+    position: relative;
+    grid-row: Customers;
+    opacity:1;
+    z-index: 0;
+}
+
+.footer {
+    position: relative;
+    grid-row: footer;
+    opacity:1;
+    z-index: -100;
+    height: 40vh;
+    background: #191b1f;
+}
+
+.contentFooter{
+    display: grid;
+    grid-template-columns: [leftItem] 1fr [rightItem] 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr ;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom:2% ;
+    column-gap: 15%;
+}
+
+.leftItem{
+    grid-column:leftItem / rightItem;
+    align-self:center ;
+    padding-top: 23%;
+
+}
+.rightItem{
+    grid-column:rightItem;
+    align-self:center ;
+    padding-top: 8%;
+}
+
+
+#contentItemCarrusel{
+    position: relative;
+    /*border: 5px solid rgb(248, 0, 0);*/
+    height: 70vh;
+    width: auto;
+}
+
+.itemCarrusel{
+    position: relative;
+    align-items: center;
+    height: auto;
+    
+}
+
+/*Carrusel items*/
+
+.item-image{
+    top: 5vh;
+    height: 30vh;
+    width: 100vh;
+  
+}
+
+.imagenCarrusel{
+    height:100%;
+    width: 100%;
+
+}
+
+.flechasCarrusel {
+    position:absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10%;
+    color: #EEEEEE;
+}
+
+.iconFlechas-D{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 5%;
+    
+}
+
+.iconFlechas-I{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 95%;
+    
+}
+
+/*Contenedor de texto de la card*/
+.textCarrusel{
+    position: absolute;
+    top:35vh;
+    height: 30vh;
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: "Open sans",Arial, Helvetica, sans-serif;
+}
+
+.card-title{
+    padding-top: 7%;
+    top:10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom:5vh;
+}
+
+.card-text {
+    padding: 2%;
+    display: flex;
+    color: #929ca4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul, li{
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+}
+
+ul.slider li {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s; 
+    background-color: white;
+}
+
+ul.slider li img{
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+
+#contePuntos{
+    position:relative;
+    display:flex;
+    width: 80vh;
+    height: auto;
+    align-items: end;
+    justify-content: space-around;  
+}
+
+#contePuntos >a{
+    display: flex;
+    border-radius: 100%;
+    font-size: 2rem;
+    height:30px ;
+    width: 30px;
+    align-items: center;
+    background-color:#f52f0363 ;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3) ;
+}
+
+/*formatea la tarjeta de Soluciones y servicios*/
+.cardFormat-sm{
+   padding-left: 7.5%; 
+   height: 72vh;
+   width: 100vh;
+   background-color: #fafafa;
+
+}
+ 
+ .contentCard-sm{
+    display:flex;
+    height:120%;
+    justify-content:center;
+  }
+
+ /*content card Solution and Services*/ 
+  .slider {
+    display: flex;
+    justify-content:center;
+
+  } 
+
+#padreNav{
+    position: relative;
+}
+
+.posicionar{
+    position: absolute;
+    top: 25%;
+    left:85%;
+}
+
+.portafolio ul.filter-container{
+    padding-left: 0%;
+}
+
+}
+
+
+/*tablets and other device*/
+
+@media only Screen and (min-width:750px) and (max-width: 1600px){
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}   
+
+
+
+.navegacion{
+    position:relative;
+    z-index: 1000;
+}
+
+#opacitiTrue-md{
+    opacity: 0;
+}
+
+
+Section.SliderMain div.card div.card-img-overlay {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+.aboutMore-md{
+    opacity:0;
+}
+
+Section.SliderMain div.card h1.card-title {
+    position: absolute;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 2.8rem;
+    color: #ffffff;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    top:5%;
+}
+
+Section.SliderMain div.card h1.card-title span {
+
+    color: #F52E03;
+    padding-left: 2%;
+}
+
+/*tarjeta gris  del banner Slide*/
+Section.SliderMain div.card div.card-img-overlay  {
+  position: absolute;
+  border: 1px solid rgba(128, 128, 128);
+  height:38%;
+  width: 75%;
+  top:50%;
+  left:15%;
+  /* Flex Box*/
+  display: flex;
+  background-color:#c4c4c47e;
+  border-radius: 15px;
+  -webkit-text-stroke: .1px black;
+}
+
+
+/*texto tarjeta del banner Slide*/
+Section.SliderMain div.card div.card-img-overlay p.card-text{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #EEEEEE;
+  font-weight: 800;
+  height: 25vh;
+}
+
+Section.SliderMain div.card img{
+    height: 50vh;
+}
+
+
+.SliderMain{
+    position: relative;
+    object-fit: cover;
+    opacity: 1;
+    z-index: 900;
+    height: 51vh;
+}
+/*title card*/
+/*firstchild*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title-Solucion {
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #929ca4;
+}
+
+
+
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel p.card-text {
+    top:8vh;
+    text-align: justify;
+    position: absolute;
+}
+
+/*fotmat title card*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title span{
+    position: absolute;
+    left: 14vh;
+}
+
+
+.solution_services{
+    position: relative;
+    
+    height: 100vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    opacity: 1;
+    z-index: 800;
+
+
+}
+
+
+.portafolio{
+    position: relative;
+
+    opacity:1;
+    z-index: 700;
+}
+
+.works{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.ourServicies{
+    position: relative;
+
+    opacity:1;
+    z-index: 600;
+}
+
+.featuresContent {
+    position: relative;
+
+    opacity:1;
+    z-index: 500;
+}
+
+.onWorkPortafolio{
+    position: relative;
+ 
+    opacity:1;
+    z-index: 400;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
+    border: 3px solid rgb(29, 225, 231);
+    position: relative;
+    padding-left: 0vh;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
+    border: 3px solid rgb(32, 73, 209);
+    height: 25vh;
+    object-fit: cover;
+}
+
+.testimonials{
+    position: relative;
+ 
+    opacity:1;
+    z-index: 300;
+}
+
+.company {
+    position: relative;
+ 
+    opacity:1;
+    z-index: 200;
+}
+
+.skills{
+    position: relative;
+  
+    opacity:1;
+    z-index: 100;
+}
+
+.Customers{
+    position: relative;
+ 
+    opacity:1;
+    z-index: 0;
+}
+
+.footer {
+    position: relative;
+
+    opacity:1;
+    z-index: -100;
+    height: 40vh;
+    background: #191b1f;
+}
+
+.contentFooter{
+    display: grid;
+    grid-template-columns: [leftItem] 1fr [rightItem] 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr ;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom:2% ;
+    column-gap: 15%;
+}
+
+.leftItem{
+    grid-column:leftItem / rightItem;
+    align-self:center ;
+    padding-top: 23%;
+
+}
+.rightItem{
+    grid-column:rightItem;
+    align-self:center ;
+    padding-top: 8%;
+}
+
+
+#contentItemCarrusel{
+    position: relative;
+    /*border: 5px solid rgb(248, 0, 0);*/
+    height: 70vh;
+    width: auto;
+}
+
+.itemCarrusel{
+    display:flex;
+    position:absolute;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+/*Carrusel items*/
+
+.item-image{
+    top: 5vh;
+    height: 30vh;
+    width: 100vh;
+}
+
+.imagenCarrusel{
+    height:100%;
+    width: 100%;
+
+}
+
+.flechasCarrusel {
+    position:absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10%
+}
+
+.iconFlechas-D{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 5%;
+    
+}
+
+.iconFlechas-I{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 95%;
+    
+}
+
+/*Contenedor de texto de la card*/
+.textCarrusel{
+    position: absolute;
+    top:35vh;
+    height: 30vh;
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: "Open sans",Arial, Helvetica, sans-serif;
+}
+
+.card-title{
+    padding-top: 7%;
+    top:10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom:5vh;
+}
+
+.card-text {
+    padding: 2%;
+    display: flex;
+    color: #929ca4;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+
+
+ul, li{
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+}
+
+ul.slider li {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s; 
+    background-color: white;
+}
+
+ul.slider li img{
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+#contePuntos{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 80vh;
+    align-items:end;
+}
+
+#contePuntos >a{
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 2rem;
+    height:30px ;
+    width: 30px;
+    align-items: center;
+    background-color:#f52f0363 ;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3) ;
+}
+
+/*formatea la tarjeta de Soluciones y servicios*/
+.cardFormat-md{
+   padding-left: 7.5%; 
+   height: 72vh;
+   background-color: #fafafa;
+}
+  
+   
+ .contentCard-md{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+  }
+
+ /*content card Solution and Services*/ 
+  .slider {
+    display: flex;
+    justify-content:center;
+    align-items:space-around;
+  }
+
+#padreNav{
+    position: relative;
+}
+
+.posicionar{
+    position: absolute;
+    top: 25%;
+    left:85%;
+}
+
+.portafolio ul.filter-container{
+    padding-left: 0%;
+}
+
+}
+
+
+
+
+/*Desktop*/
+@media only Screen and (min-width: 1600px){
+
+body{
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}   
+
+.navegacion{
+    position:relative;
+    z-index: 1000;
+}
+
+Section.SliderMain div.card div.card-img-overlay {
+    display: grid;
+    grid-template-columns: [texto]2.2fr[middleContent]0.1fr[logo]1fr[endColumn]0.1fr;
+    grid-template-rows: 28%[logoRow]40%[about] 20%[endRow];
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px, auto); 
+}
+
+.button-about{
+    color: #9E9E9E;
+    background-color: #c4c4c47e;
+    border:1px solid rgba(128, 128, 128);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-weight: 800;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.divButton{
+    display:grid;
+    grid-row: about;
+    grid-column: logo/endColumn;
+    justify-self: center;
+    align-self: center;
+}
+
+Section.SliderMain div.card h1.card-title {
+    position: absolute;
+    top:10%;
+    left:3%;
+    width: 100vh;
+    height: 5vh;
+    -webkit-text-stroke: 1px black;
+    font-size: 3.7rem;
+    color: #eeeeee;
+    /*9E9E9E*/
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px black;
+    
+}
+
+Section.SliderMain div.card h1.card-title span {
+    color: #F52E03;
+    padding-left: 4%;
+}
+
+Section.SliderMain div.card div.card-img-overlay p.card-text {
+  position: absolute;
+  top:40%;
+  left:4%;
+  margin-left: 2vh;
+  width: 90vh;
+  height: 25vh;
+  border: 1px solid rgba(128, 128, 128);
+  display: flex;
+  justify-content: left;
+  font-size: 1.5rem;
+  color: #EEEEEE;
+  background-color:#c4c4c47e;
+  border-radius: 15px;
+  -webkit-text-stroke: .1px black;
+  font-weight: 800;
+}
+
+
+/*Banner Slider Main*/
+Section.SliderMain div.card img.mainSlide{
+    height: 59vh;
+}
+
+
+.img{
+    position: absolute;
+    top:25%;
+    left:7%;
+    width: 90%;
+    z-index: 1970;
+}
+
+/*Imagen logo dentro de slider*/
+.formating {
+    position:relative;
+    height:25vh ;
+    width: 25vh;
+    background-color: #c4c4c47e;
+    border-radius: 100%;
+    z-index: 950;
+    justify-self: center;
+    align-self: center;
+
+    /*Alineacion usando grid*/
+    grid-column: logo;
+    grid-row: logoRow;
+    
+}
+
+.SliderMain{
+    position: relative;
+   
+    object-fit: cover;
+    opacity: 1;
+    z-index: 900;
+    height: 60vh;
+}
+
+/*title card*/
+/*firstchild*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title-Solucion {
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #929ca4;
+}
+
+
+
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel p.card-text {
+    top:8vh;
+    text-align: justify;
+    position: absolute;
+}
+
+/*fotmat title card*/
+Section.solution_services div.container div.row div.container ul.slider li.itemCarrusel div.textCarrusel h5.card-title span{
+    position: absolute;
+    left: 14vh;
+}
+
+
+
+.solution_services{
+    position: relative;
+
+    height: 100vh;
+    opacity: 1;
+    z-index: 800;
+    padding-bottom: 5%;
+}
+
+Section.solution_services div.container h1.main-title{
+    padding-top: 5%;
+}
+
+.portafolio{
+    position: relative;
+    opacity:1;
+    z-index: 700;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%; 
+}
+
+
+.titulo{
+    margin-top:10%;
+    height: auto;
+    grid-row:span firstRow;
+    grid-column:col2;
+    justify-self: center;
+}
+
+/*Imagenes de trabajos del portafolio*/
+.portafolio ul.filter-container div.container li div.overlay img{
+
+    object-fit: cover;
+    height: 40vh;
+    width: 30vh;
+}
+
+.ourServicies{
+    position: relative;
+
+    opacity:1;
+    z-index: 600;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
+ 
+    position: relative;
+    padding-left: 18vh;
+}
+
+Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
+
+    height: 25vh;
+    width: 30vh;
+    object-fit: cover;
+}
+
+.featuresContent {
+    position: relative;
+  
+    opacity:1;
+    z-index: 500;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*formatear para alguna posible actualizacion*/
+Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-title{
+   
+}
+
+.onWorkPortafolio{
+    position: relative;
+   
+    opacity:1;
+    z-index: 400;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.testimonials{
+    position: relative;
+ 
+    opacity:1;
+    z-index: 300;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.company {
+    position: relative;
+   
+    opacity:1;
+    z-index: 200;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.skills{
+    position: relative;
+  
+    opacity:1;
+    z-index: 100;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Customers{
+    position: relative;
+
+    opacity:1;
+    z-index: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.footer {
+    position: relative;
+    
+    opacity:1;
+    z-index: -100;
+    height: 40vh;
+    background: #191b1f;
+}
+
+.contentFooter{
+    display: grid;
+    grid-template-columns: [leftItem] 1fr [rightItem] 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr ;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom:2% ;
+    column-gap: 5%;
+}
+
+.leftItem{
+    grid-column:leftItem / rightItem;
+    align-self:center ;
+  
+
+}
+.rightItem{
+    grid-column:rightItem;
+    align-self:center ;
+    padding-top: 2%;
+}
+
+
+#contentItemCarrusel{
+    position: relative;
+    height: 70vh;
+    width: auto;
+}
+
+.itemCarrusel{
+    display:flex;
+    position:absolute;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+
+.item-image{
+    top: 5vh;
+    height: 50vh;
+    width: 100vh;
+}
+
+.imagenCarrusel{
+    display:flex ;
+    height:100%;
+    width: 100%;
+}
+
+.flechasCarrusel {
+    position:absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10%
+}
+
+.iconFlechas-D{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 5%;
+    
+}
+
+.iconFlechas-I{
+    position: absolute;
+    display: flex;
+    top: 38%;
+    right: 95%;
+    
+}
+
+.textCarrusel{
+    position: absolute;
+    top:35vh;
+    height: 50%;
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: "Open Sans",Arial, Helvetica, sans-serif; 
+}
+
+.card-title{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+    padding: 2%;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+
+
+.card-text-proyectos {
+    padding: 2%;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.formatPerfilPhotos{
+    width: 300px;
+    height: 300px;
+}
+
+.formatPerfilPhotos img{
+    width: 300px;
+    height: 300px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+}
+
+ul.slider li {
+    opacity: 0;
+    transition: 0.3s; 
+    background-color: white;
+}
+
+ul.slider li img{
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+
+#contePuntos{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 80%;
+    padding-bottom: 10%;
+    align-items:end;
+}
+
+#contePuntos >a{
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 2rem;
+    height:30px ;
+    width: 30px;
+    align-items: center;
+    background-color:#f52f0363 ;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3) ;
+}
+
+
+.cardFormat-lg{
+    height: 100vh;
+    display: flex;
+    background-color: #fafafa;
+
+}
+  
+  .contentCard-lg{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+  }
+  
+ /*content card Solution and Services*/ 
+  .slider {
+    justify-content:center;
+    align-items:space-around;
+  }
+
+#padreNav{
+    position: relative;
+}
+
+.posicionar{
+    position: absolute;
+    top: 25%;
+    left:85%;
+}
+
+}
