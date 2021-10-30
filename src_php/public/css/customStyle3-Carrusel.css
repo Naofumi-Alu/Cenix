@@ -87,9 +87,7 @@
 
 @media only Screen and (min-width:750px) and (max-width: 1600px){
     .containter-Portafolio{
-    display: grid;
-    grid-template-columns: [col1]1fr [col2]1fr [col3]1fr;
-    grid-template-rows: [contentPortafolio]1fr;
+
 }
 
 .contenedor {
