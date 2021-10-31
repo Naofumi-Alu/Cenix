@@ -1,4 +1,8 @@
+
+
+
 //Contiene la logica o proceso para cada ruta
+
 
 //Data Base
 
@@ -53,6 +57,14 @@ const software =(req,res)=>{
     res.render('Other_Pages/soluciones.html');
 }
 
+//POST Form for Contact
+
+const formContact =(req,res)=>{
+    console.log('Request POST RECIVED');
+    console.log(req.body);
+    res.render('Other_Pages/contact.php');
+}
+
 module.exports={
     index,
     pageNotFound_404,
@@ -62,7 +74,8 @@ module.exports={
     proyectos,
     servicios,
     software,
-    soluciones
+    soluciones,
+    formContact
 }
 
 

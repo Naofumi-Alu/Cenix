@@ -2,9 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../Controllers/index');
-
-
-
+router.use(express.json());
 
  
 
@@ -25,6 +23,8 @@ const controller = require('../Controllers/index');
  router.get('/software',controller.software);
  
  router.get('/soluciones',controller.soluciones);
+
+ router.post('/formContact',controller.formContact);
  
  // Page Not Found 404
 

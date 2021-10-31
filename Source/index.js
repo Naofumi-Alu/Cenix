@@ -4,14 +4,27 @@ const express = require('express');
 const app= express();
 const path = require('path');
 const morgan =require('morgan');
+const php = require('php');
+
 
 
 //Settings
 app.set('port',process.env.PORT ||5000);
 let port = app.get('port');
 app.engine('html',require('ejs').renderFile);
+
+app.engine('php', php.__express);
+
+
 app.set('view engine','ejs');
+
+
+app.set('view engine', 'php')
+
+
 app.set('views',path.join(__dirname,'Views'));
+app.set('views', path.join(__dirname, 'Views'));
+
 
 
 

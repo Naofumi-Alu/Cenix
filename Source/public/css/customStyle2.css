@@ -1,5 +1,10 @@
 /*Custom Style2 css*/
 /*Movile*/
+
+.borderButtonRed{
+    border-bottom: 5px solid #F52E03;
+}
+
 @media only screen and (max-width: 750px){
 
 body.main{
@@ -38,6 +43,108 @@ body.main{
 }   
 
 
+/*content text and img contentSobreNosotros*/
+
+.contentSobreNosotros{
+    display: flex;
+}
+/*Css for format content logos for page software.html*/
+
+.port-left img{
+    height: 300px;
+    width: 500px;
+    padding-bottom: 15%;
+    padding-right: 25%;
+}
+
+/*personal in page about.html*/
+
+.team-detail {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .list_carousel2 .team-detail h4 {
+    font-family: 'Titillium Web';
+    font-size: 9px;
+    color: #191b1f;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .list_carousel2 .team-detail span {
+    font-family: 'Open Sans';
+    font-size: 6px;
+    color: #93959d;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+    text-align: center;
+  }
+
+.team-socs {
+  display: table !important; 
+  margin: 20px auto !important;
+}
+
+.team-socs li {
+  display: inline-block;
+  margin: 0;
+}
+
+.team-socs li i {
+  font-size: 7px;
+  color: #acaeb7;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+
+.team-socs li .fa-twitter {
+  background-color: #00abf0;
+  color: #fff;
+}
+.team-socs li .fa-facebook {
+  background-color: #39579a;
+  color: #fff;
+}
+.team-socs li .fa-linkedin {
+  background-color: #0072a6;
+  color: #fff;
+}
+.team-socs li .fa-google-plus {
+  background-color: #eb8984;
+  color: #fff;
+}
+.team-socs li .fa-skype {
+  background-color: #0080ff;
+  color: #fff;
+}
+
+.formatPerfilPhotos{
+    width: 100px;
+    height: 100px;
+}
+
+.formatPersonal{
+    position: relative;
+	left:12%;
+}
+
+.formatPerfilPhotos img{
+    width: 100px;
+    height: 100px;
+}
 
 .navegacion{
     position:relative;
@@ -192,7 +299,7 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
     z-index: 400;
     grid-row: onWorkPortafolio/testimonials;
     overflow:hidden;
-    border: 3px solid black;
+
 }
 
 
@@ -200,17 +307,17 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
     display:grid;
     grid-template-columns: repeat(3,1fr);
     height: 100vh;
-    border:5px solid blue;
+   
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
-    border: 3px solid red;
+
     position: relative;
     height: 120vh;
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
-    border: 3px solid rgb(32, 73, 209);
+
     height: 25vh;
     object-fit: cover;
 }
@@ -221,7 +328,6 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
     opacity:1;
     z-index: 300;
     height: 80vh;
-    border: 3px solid green;
 }
 
 .company {
@@ -467,6 +573,137 @@ body{
 }   
 
 
+/*about format page*/
+.aboutFormat{
+  display: grid;
+  grid-template-columns: [colAbout1]2fr[colAbout2]1fr;
+  grid-template-rows: 1fr;
+  grid-auto-flow: row;
+  width: 100vh;
+}
+
+.leftFormatAbout{
+    grid-column: colAbout1;
+}
+
+.rightFormatAbout{
+    grid-column: colAbout2;
+
+}
+
+.rightFormatAbout img{
+    width: 150px;
+}
+
+
+/*Css for format content logos for page software.html*/
+
+.port-left img{
+    height: 400px;
+    width: 300px;
+}
+
+  
+    
+.port-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+/*personal in page about.html*/
+
+.team-detail {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .list_carousel2 .team-detail h4 {
+    font-family: 'Titillium Web';
+    font-size: 9px;
+    color: #191b1f;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .list_carousel2 .team-detail span {
+    font-family: 'Open Sans';
+    font-size: 6px;
+    color: #93959d;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+    text-align: center;
+  }
+
+.team-socs {
+  display: table !important; 
+  margin: 20px auto !important;
+}
+
+.team-socs li {
+  display: inline-block;
+  margin: 0;
+}
+
+.team-socs li i {
+  font-size: 7px;
+  color: #acaeb7;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+
+.team-socs li .fa-twitter {
+  background-color: #00abf0;
+  color: #fff;
+}
+.team-socs li .fa-facebook {
+  background-color: #39579a;
+  color: #fff;
+}
+.team-socs li .fa-linkedin {
+  background-color: #0072a6;
+  color: #fff;
+}
+.team-socs li .fa-google-plus {
+  background-color: #eb8984;
+  color: #fff;
+}
+.team-socs li .fa-skype {
+  background-color: #0080ff;
+  color: #fff;
+}
+
+
+.formatPerfilPhotos{
+    width: 200px;
+    height: 200px;
+}
+
+.formatPerfilPhotos img{
+    width: 200px;
+    height: 200px;
+}
+
+.formatPersonal{
+   display: flex;
+   justify-content: center;
+}
 
 .navegacion{
     position:relative;
@@ -617,13 +854,13 @@ Section.solution_services div.container div.row div.container ul.slider li.itemC
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works{
-    border: 3px solid rgb(29, 225, 231);
+ 
     position: relative;
     padding-left: 0vh;
 }
 
 Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
-    border: 3px solid rgb(32, 73, 209);
+
     height: 25vh;
     object-fit: cover;
 }
@@ -661,7 +898,7 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 
     opacity:1;
     z-index: -100;
-    height: 40vh;
+    height: 60vh;
     background: #191b1f;
 }
 
@@ -758,7 +995,6 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 }
 
 .card-title{
-    padding-top: 7%;
     top:10vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -767,13 +1003,23 @@ Section.onWorkPortafolio div.our-work div.container div.demo1 div.works img{
 }
 
 .card-text {
-    padding: 2%;
+    position: relative;
+    right: 10%;
     display: flex;
     color: #929ca4;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    text-align: justify;
 }
-
+.card-text-proyectos {
+    position: relative;
+    right: 10%;
+    padding: 2%;
+    display: flex;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
 
 
 ul, li{
@@ -869,6 +1115,7 @@ a{
 
 
 
+
 /*Desktop*/
 @media only Screen and (min-width: 1600px){
 
@@ -877,9 +1124,57 @@ body{
     background-color: #fafafa;
 }   
 
+
+/*content text and img contentSobreNosotros*/
+
+.contentSobreNosotros{
+    display: flex;
+}
+
+
+/*about format page*/
+.aboutFormat{
+    display: grid;
+    grid-template-columns: [colAbout1]2fr[colAbout2]1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    width: 200vh;
+  }
+  
+  .leftFormatAbout{
+      grid-column: colAbout1;
+  }
+  
+  .rightFormatAbout{
+      grid-column: colAbout2;
+  
+  }
+  
+  .rightFormatAbout img{
+      width: 250px;
+  }
+
+  .formatOtherImageAbout img{
+    width: 50%;
+}
+
+/*Css for format content logos for page software.html*/
+
+.port-left img{
+    height: 400px;
+    width: 500px;
+}
+
+
+
 .navegacion{
     position:relative;
     z-index: 1000;
+}
+
+.formatPersonal{
+    position: relative;
+	left:15%;
 }
 
 Section.SliderMain div.card div.card-img-overlay {
@@ -1255,7 +1550,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 .card-text {
     padding: 2%;
     display: flex;
-    color: #ffffff;
+    color: #929ca4;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     
@@ -1265,7 +1560,7 @@ Section.featuresContent div.features div.container div.row div.col-md-6 h1.main-
 .card-text-proyectos {
     padding: 2%;
     display: flex;
-    color: #ffffff;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }

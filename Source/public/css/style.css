@@ -2891,7 +2891,7 @@ margin-left: 10px;
           left: auto;
           right: -41px; }
   .timeline.animated .timeline-row .timeline-content {
-    opacity: 0;
+    opacity: 1;
     left: 20px;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
