@@ -1,7 +1,6 @@
-
-
-
 //Contiene la logica o proceso para cada ruta
+
+
 
 
 //Data Base
@@ -10,62 +9,75 @@
 
 // ========= Main Routes ======= //
 //Get
-const index = (req,res)=> {
-    res.render('index.ejs',{title:'Cenix'})
+const index = (req, res) => {
+    res.render('index.ejs', { title: 'Cenix' })
 };
 
 //get Page not found
 
-const pageNotFound_404 =(req,res)=>{
+const pageNotFound_404 = (req, res) => {
     res.render('404.ejs')
 };
 
 //Get about
 
-const about = (req,res) =>{
+const about = (req, res) => {
     res.render('Other_Pages/about.html');
 }
 
 //Get -Modificar despues
-const contact =(req,res)=>{
+const contact = (req, res) => {
     res.render('Other_Pages/contact.html');
 };
 
 //Get mantenimiento.html
-const mantenimiento =(req,res)=>{
+const mantenimiento = (req, res) => {
     res.render('Other_Pages/mantenimiento.html');
 }
 
 //Get proyectos.html
-const proyectos =(req,res)=>{
+const proyectos = (req, res) => {
     res.render('Other_Pages/proyectos.html');
 }
 
 //Get servicios.html
-const servicios =(req,res)=>{
+const servicios = (req, res) => {
     res.render('Other_Pages/servicios.html');
 }
 
 //Get software.html
-const software =(req,res)=>{
+const software = (req, res) => {
     res.render('Other_Pages/software.html');
 }
 
 
- //Get soluciones.html
- const soluciones =(req,res)=>{
+//Get soluciones.html
+const soluciones = (req, res) => {
     res.render('Other_Pages/soluciones.html');
 }
 
 //POST Form for Contact
 
-const formContact =(req,res)=>{
+const formContact = (req, res) => {
     console.log('Request POST RECIVED');
     console.log(req.body);
-    res.render('Other_Pages/contact.php');
+    const data = req.body;
+
+    req.getConnection((err, conn) => {
+
+        conn.query('INSERT INTO customers set ? ', [data], (err, customers) => {
+            console.log(customers);
+            console.log(err);
+
+        });
+    });
+    res.redirect('/contact');
 }
 
-module.exports={
+
+
+
+module.exports = {
     index,
     pageNotFound_404,
     about,
@@ -214,7 +226,7 @@ module.exports={
  */
 
 
- /* // ======Moudulos exportados ====== //  
+/* // ======Moudulos exportados ====== //  
  
 module.exports={
     index,

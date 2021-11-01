@@ -1,40 +1,39 @@
-
 const express = require('express');
 const router = express.Router();
 const controller = require('../Controllers/index');
 router.use(express.json());
 
- 
+
 
 
 //Routes
- router.get('/',controller.index);
+router.get('/', controller.index);
 
- router.get('/about',controller.about);
- 
- router.get('/contact',controller.contact);
- 
- router.get('/mantenimiento',controller.mantenimiento);
- 
- router.get('/proyectos',controller.proyectos);
- 
- router.get('/servicios',controller.servicios);
- 
- router.get('/software',controller.software);
- 
- router.get('/soluciones',controller.soluciones);
+router.get('/about', controller.about);
 
- router.post('/formContact',controller.formContact);
- 
- // Page Not Found 404
+router.get('/contact', controller.contact);
 
- router.get('*',controller.pageNotFound_404);
- 
- module.exports=router;
+router.get('/mantenimiento', controller.mantenimiento);
+
+router.get('/proyectos', controller.proyectos);
+
+router.get('/servicios', controller.servicios);
+
+router.get('/software', controller.software);
+
+router.get('/soluciones', controller.soluciones);
+
+router.post('/contact', controller.formContact);
+
+// Page Not Found 404
+
+router.get('*', controller.pageNotFound_404);
+
+module.exports = router;
 
 
 // ======= ajax ======= //
- /*
+/*
  router.get('/UserInf',controller.UserInfget);
 
  router.post('/UserInf',controller.UserInfPost);
@@ -89,4 +88,3 @@ router.use(express.json());
  router.get('/typography',controller.typography);
  
  */
-
