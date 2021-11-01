@@ -1,198 +1,112 @@
-
 <!-- Preloader JavaScript Animation-->
 <div id="preloader">
-	<div id="status">&nbsp;</div>
+    <div id="status">&nbsp;</div>
 </div>
 
 <!-- Container -->
-<div class="custom-Margenes" id="container">
+<div class="container-fluid custom-Margenes" id="container">
 
 
-	<!-- Header
+    <!-- Header
 		    ================================================== -->
-	<header class="clearfix" id="home">
-		
-		<nav class="navbar  navbar-expand-lg navbar-static-top navbar-light bg-light fixed-top navbar pintar">
-				
-				<div class="container-fluid">
-					<div class="row">
-							<!--===== Pie de Cabecera  =====-->
-							<div class="container navigation custom-Margen-Contact pintar col-md-12">
-								<!--pie de cabecera-->
-								<div class="top-line">
-									<div class="container-md">
-										<div class="row">
-											<ul class="top-socials col-md-4">
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-												<li><a href="#"><i class="fa fa-skype"></i></a></li>
-											</ul>
-											<ul class="top-info col-md-5 col-md-offset-3">
-												<li><a href="#"><i class="fa fa-envelope"></i>hello@samokhinteam.ru</a></li>
-												<li><p><i class="fa fa-phone"></i>+1 (800) 5260 888 52 63</p></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<!-- end topline -->
-							</div>	
-					</div>
+    <header class="clearfix" id="home">
 
-					<div class="row">
-							<!--======= LOGO ========-->
-						<div class="container pintar">
-								<picture class="contpicture">
-									<div class="container formatImage" style="width: 20rem;">
-										<div>
-											<a  href="/">
-												<img src="images/cenix.png" class="img-fluid responsive" alt="logo" />
+        <nav class="navegacion navbar  navbar-expand-lg  navbar-light bg-light fixed-top">
+
+            <div id="padreNav" class="container-fluid">
+
+                <!---Logo Principal--->
+                <div class="row container-fluid">
+                    <!--======= LOGO ========-->
+                    <div class="container-fluid">
+                        <picture class="contpicture">
+                            <div class="container formatImage" style="width: 15rem;">
+                                <div>
+                                    <a href="/">
+                                        <img src="images/cenix.png" class="img-fluid responsive" alt="logo" style="height:12vh;" />
+                                    </a>
+                                </div>
+                            </div>
+                        </picture>
+                    </div>
+                </div>
+
+                <!--=== Boton Barra de navegacion =====-->
+                <button class="button-format posicionar navbar-toggler  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+						<span class="navbar-toggler-icon" style="height:3vh; width:3vh;"></span>
+					</button>
+
+                <!---Contenido off canvast navegacion--->
+                <div class="row container ">
+                    <div class="col-lg-6 offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasRightLabel">
+
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                <!--======= LOGO ========-->
+                                <div class="container-sm">
+                                    <picture class="contpicture">
+                                        <div class="container formatImage" style="width: 15rem;">
+                                            <div class="container-fluid">
+                                                <a href="#">
+                                                    <img src="images/cenix.png" class="img-fluid responsive" alt="logo" />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </picture>
+                                </div>
+                            </h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Nuestra empresa
 											</a>
-										</div>
-									</div>
-								</picture>
-						</div>
-
-							<!--=== Boton Barra de navegacion =====-->
-						<button class="navbar-toggler pintar " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-							
-					</div>
-
-
-						
-					<div class="row">
-						<div class="col-lg-6 offcanvas offcanvas-end pintar" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasRightLabel">
-
-							<div class="offcanvas-header">
-								<h5 class="offcanvas-title" id="offcanvasRightLabel">
-									<!--======= LOGO ========-->
-									<div class="container-sm">
-										<picture class="contpicture">
-											<div class="container formatImage" style="width: 20rem;">
-												<div class="container-fluid">
-													<a href="#">
-														<img src="images/cenix.png" class="img-fluid responsive" alt="logo" />
-													</a>
-												</div>
-											</div>
-
-										</picture>
-									</div>
-								</h5>
-								<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-							</div>
-								<div class="offcanvas-body">
-									<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-												Dropdown
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="/about">Sobre Nosotros</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Unidades de Negocio
 											</a>
-											<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-												<li>
-													<a class="dropdown-item" href="#">Action</a>
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Something else here</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-												Dropdown
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="/software">Software y Hardware</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/soluciones">Gestión y desarrollo de proyectos</a>
+                                        </li>
+                                        <li>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="/proyectos">Proyectos</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Contacto
 											</a>
-											<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-												<li>
-													<a class="dropdown-item" href="#">Action</a>
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Something else here</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-												Dropdown
-											</a>
-											<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-												<li>
-													<a class="dropdown-item" href="#">Action</a>
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Something else here</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-												Dropdown
-											</a>
-											<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-												<li>
-													<a class="dropdown-item" href="#">Action</a>
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Something else here</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-												Dropdown
-											</a>
-											<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-												<li>
-													<a class="dropdown-item" href="#">Action</a>
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li>
-													<a class="dropdown-item" href="#">Something else here</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-						</div>
-					</div>
-					
-						
 
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="/contact">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-						
-				</div>
-		</nav>
-
-	</header>
-<!-- End Header -->
- 
+            </div>
+        </nav>
+        <div class="borderButtonRed"></div>
+    </header>
+    <!-- End Header -->

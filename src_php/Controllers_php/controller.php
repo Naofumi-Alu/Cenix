@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 try
 {
-  // ====== add Routes nad instance context ======== //
+  // ====== add Routes and instance context ======== //
     // Add Route object(s) to RouteCollection object
     $routes = new RouteCollection();
     $routes->add('index', $index_route);

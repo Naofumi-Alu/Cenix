@@ -1,3 +1,6 @@
+
+/*Style css*/
+
 /*-------------------------------------------------
  = Table of Content
  1.General                              
@@ -20,6 +23,7 @@
 .clearfix {
   *zoom: 1;
 }
+
 
 .clearfix:before,
 .clearfix:after {
@@ -93,7 +97,6 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Titillium Web', sans-serif;
   background: #fff;
   overflow: hidden;
   outline: 0;
@@ -134,7 +137,6 @@ h1 {
   color: #000;
   font-weight: 700;
   font-size: 32px;
-  font-family: 'Titillium Web';
 }
 h2 {
   color: #000;
@@ -170,7 +172,6 @@ p{
   font-size: 14px;
   color: #93959d;
   font-weight: normal;
-  font-family: 'Open Sans';
   margin: 0;
   line-height: 24px;
 }
@@ -356,10 +357,10 @@ header .navbar .navbar-collapse .navbar-nav li a {
 }
 
 header .navbar .navbar-collapse .navbar-nav li.active a{
-  color: #AB000D;
+  color: #F52E03;
 }
 header .navbar .navbar-collapse .navbar-nav li:hover a{
-  color: #AB000D;
+  color: #F52E03;
 }
 
 
@@ -377,7 +378,7 @@ header .navbar .navbar-collapse .navbar-nav li ul.drop-down {
   opacity: 0;
   z-index: 3;
   background-color: #191b1f;
-    border-top: 2px solid #AB000D;
+    border-top: 2px solid #F52E03;
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.15);
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.15);
   box-shadow: 0 0 8px rgba(0,0,0,.15);
@@ -694,6 +695,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 .main-title span {
   color: #F52E03;
+  /*F52E03*/
 }
 
 .main-border {
@@ -858,7 +860,8 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 /*Our Work*/
 .our-work {
-  padding: 80px 0;
+  padding: 0px;
+  height: 100vh;
 }
 
 .filter {
@@ -903,7 +906,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
 
 
 .filter-container li {
-  width: 24.97%;
+  width: auto;
   float: left;
   position: relative;
   overflow: hidden;
@@ -1028,7 +1031,7 @@ header .navbar .navbar-collapse .navbar-nav li:hover > ul.drop-down {
   font-family: 'Titillium Web';
   margin: 0;
   background: #F52E03;
-  padding: 70px 0;
+  padding: 2% 0;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -2888,7 +2891,7 @@ margin-left: 10px;
           left: auto;
           right: -41px; }
   .timeline.animated .timeline-row .timeline-content {
-    opacity: 0;
+    opacity: 1;
     left: 20px;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -4471,8 +4474,10 @@ background-color: #8d2bdb !important;
 /*Footer*/
 
 .inner-footer {
-  background: #191b1f;
-  padding: 80px 0;
+  position:relative;
+  left:0%;
+  width:auto;
+  text-align:justify;
 }
 
 footer p {
@@ -4902,3 +4907,6 @@ footer p {
   font-weight: 700;
   line-height: 50px;
 }
+
+
+

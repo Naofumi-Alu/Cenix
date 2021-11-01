@@ -111,7 +111,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-direction-nav .flex-next:after {
 	content: '\f105';
-	font-family: 'FontAwesome';
+	amfont-fily: 'FontAwesome';
 	font-size: 30px;
 	color: #fff;
 	line-height: 43px;

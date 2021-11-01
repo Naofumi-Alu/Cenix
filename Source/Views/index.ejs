@@ -1,206 +1,324 @@
+
 <!--Header-->
 <%- include ('./partials/head.html') %>
 
 
-<body>
-<!-- Navigation-->
-<%- include ('./partials/navigation.html') %>
+
+<body class="main">
 	
-		<section>
-		<!-- START REVOLUTION SLIDER 4.5.95 fullwidth mode -->
-		<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:600px;">
-			<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:600px;height:600px;">
-				<ul>
-					<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-						<!-- MAIN IMAGE -->
-						<img src="images/Slider6.jpeg" alt="portfolio_img6" data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<!-- LAYERS -->
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption jomelle_big sft tp-resizeme rs-parallaxlevel-0" data-x="20" data-y="108" data-speed="1000" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0.1" style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-							Enfocados en el    <span class="jomelle_big_orange">servicio</span>
-						</div>
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption jomelle_small skewfromleft tp-resizeme rs-parallaxlevel-0" data-x="20" data-y="200" data-speed="1000" data-start="1100" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-							Acompañamiento permanente en la implementación de sus proyectos
-						</div>
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption jomelle_small skewfromleft tp-resizeme rs-parallaxlevel-0" data-x="20" data-y="249" data-speed="1000" data-start="1400" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-							Personal altamente calificado y multi disciplinario
-						</div>
-						<div class="tp-caption jomelle_small skewfromleft tp-resizeme rs-parallaxlevel-0" data-x="20" data-y="298" data-speed="1000" data-start="1400" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-							Cubrimos diferentes sectores para suplir sus necesidades
-						</div>
+<%- include ('./partials/navigation.html') %>
 
-						</li>
-				</ul>
+<div class="mainContainer">
+<!--Revolution Slider o banner principal-->
+	<section class="SliderMain container-fluid ">
+			<!-- START REVOLUTION SLIDER 4.5.95 fullwidth mode -->
+			<div class="card bg-light row">
 
-				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;">
+				<img src="images/Slider6.jpeg" class="mainSlide card-img" alt="portfolio_img6">
+                
+                 <!-- card title -->
+				<h1 class="card-title">Enfocados en el <span class="color">Servicio</span></h1>
+                
+                <!-- card text -->
+				<div class="card-img-overlay row">
+					<p class="h4 card-text">Acompañamiento permanente en la implementación de sus proyectos <br>Personal altamente calificado y multi disciplinario <br>Cubrimos diferentes sectores para suplir sus necesidades</p>
+							
+					<div class="formating">
+						<img class="img" id="opacitiTrue-md" src="images/cenix.png" class="img-fluid responsive" alt="logo" />
+                    </div>
+                    <div class="aboutMore-md aboutMore-sm divButton container">
+                        <a class="h4 button-about" role="button" data-bs-toggle="button" href="#">Descubre más</a>
+                    </div>	
 				</div>
 			</div>
-		</div>
-		</section>
-		<!-- END REVOLUTION SLIDER -->
+	</section>
+	
+<!-- END REVOLUTION SLIDER -->
+
+<!--Soluciones y Servicios-->
+      <section class="container-fluid solution_services">
+
+        <!--================ CARRUSEL    =================================-->
+
+        <!--con indicadores-->
+        <div id="content" class="container">
+         
+          <!-- ====================== Solucuibes y servicios tarjeta  ====================================-->
+
+          <div class="row">
 
 
-		<!-- content 
-			================================================== -->
-		<div id="content">
-			
-			<div class="amaze">
-				<div class="container">
-					<h1 class="main-title">Soluciones y <span>Servicios</span></h1>
-					<div class="main-border"></div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/tics370x250.jpg" alt="">
-								<h4>TIC´s</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="">
-								<h4>Edificios inteligentes</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/Movilidad370x250.jpg" alt="">
-								<h4>Movilidad</h4>
-								<p>Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/Seguridadvial370x250.jpg" alt="">
-								<h4>Seguridad vial</h4>
-								<p>Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/software370x250.jpg" alt="">
-								<h4>Software</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/IoT370x250.jpg" alt="">
-								<h4>IoT</h4>
-								<p>Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico. </p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="amaze-item">
-								<img src="images/Soluciones/Energia370x250.jpg" alt="">
-								<h4>Energía</h4>
-								<p>Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
-							</div>
-						</div>
-						
-					</div>
+            <!-- Card del carrusel -->
+            <div class="cardFormat-sm cardFormat-md cardFormat-lg container card " >
+
+               <div class="container">
+                    <h1 class="main-title">Soluciones y <span class="color">Servicios</span></h1>
+
+                    <div class="main-border"></div>	
+               </div>
+
+              <!--Carrusel con controles  -->
+              <!-- ==== Card Body ====-->
+                <ul id="container contentItemCarrusel" class="slider card-body">
+                  
+                    <div class="contentCard-lg contentCard-md contentCard-sm">
+                      <li class="itemCarrusel" id="itemCarrusel-1">
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/tics370x250.jpg"  alt="..." width="430rem" height ="235rem">
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-7">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-2">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title-Solucion">Soluciones y <span>Servicios</span></h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de cableado estructurado, fibra óptica, seguridad electronica, telecomunicaciones, gestión de la información e inteligencia de negocios.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-2">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/Edificiosinteligentes370x250.jpeg" alt="" width="430rem" height ="235rem">
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-1">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-3">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Edificios inteligentes</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de sistemas de control de acceso, CCTV, comunicaciones, inmotica, sistemas de detección y extinción de incendios, iluminación y control de ambiente.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-3">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/Movilidad370x250.jpg" alt="" width="430rem" height ="235rem"> > 
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-2">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-4">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Movilidad</h5>
+                          <p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control y monitoreo de movilidad urbana e interurbana./p>
+                        </div>
+                      </li>
+
+
+                      <li class="itemCarrusel" id="itemCarrusel-4">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/Seguridadvial370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-3">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-5">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Seguridad vial</h5>
+                          <p class="card-text">Consultoría, ingeniería y diseños de sistemas enfocados al control, monitoreo y registro de seguridad vial.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-5">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/software370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-4">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-6">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Software</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones de software ajustadas a los requerimientos de cada proyecto.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-6">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/IoT370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-5">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-7">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">IoT</h5>
+                          <p class="card-text">Ingenieria, diseño, desarrollo, suministro e implementación de soluciones enfocadas a la conectividad de las personas con su entorno tecnológico.</p>
+                        </div>
+                      </li>
+
+                      <li class="itemCarrusel" id="itemCarrusel-7">
+
+
+                        <!-- slides imagenes-->
+                        <div class="item-image">
+                          <img class="imagenCarrusel" src="images/Soluciones/Energia370x250.jpg" alt="" width="430rem" height ="235rem">>
+
+                          <!--Button Prev, Next-->
+                          <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-6">
+                              <i class="carousel-control-prev-icon"></i>
+                            </a>
+                            <a href="#itemCarrusel-1">
+                              <i class="carousel-control-next-icon"></i>
+                            </a>
+                          </div>
+                        </div>
+
+
+                        <!-- Contenido tarjeta-->	
+                        <div class="textCarrusel">
+                          <h5 class="card-title">Energía</h5>
+                          <p class="card-text">Ingeniería, diseño, suministro e implementación de proyectos de respaldo de energía.</p>
+                        </div>
+                      </li>
+                    
+                         <!--controles-->
+
+                      <div id="contePuntos"class="container">
+                        <a href="#itemCarrusel-1"></a>
+                        <a href="#itemCarrusel-2"></a>
+                        <a href="#itemCarrusel-3"></a>
+                        <a href="#itemCarrusel-4"></a>
+                        <a href="#itemCarrusel-5"></a>
+                        <a href="#itemCarrusel-6"></a>
+                        <a href="#itemCarrusel-7"></a>
+                      </div>
+                    </div>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+	  <div class="borderButtonRed"></div>	
+<!--End Soluciones y Servicios-->
+
+
+<!-- our work portfolio -->
+	<section class="containter-Portafolio container-fluid portafolio">
+
+        <!--titulo-->
+			<div class="titulo">
+				<h1 class="main-title">Unidades de <span class="color"> negocio</span>
+				</h1>
+
+				<div class="main-border">
 				</div>
-			</div>
+					
+				<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
+			</div>    
 
-					<!-- our work portfolio -->
-					<div class="our-work brown-bg">
-				
-						<div class="container">
-							<h1 class="main-title">Unidades de negocio</h1>
-							<div class="main-border"></div>
-							<p class="main-subtitle">Contamos con una organización eficiente para cubrir las necesidades de nuestros clientes. </p>
-		
-							<div class="filters demo1">
-								
-								<div class="clear"></div>
-								<div class="clearfix">
-									<ul class="filter-container home-filter clearfix">
-										<li class="class1">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-1.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Proyectos y soluciones</h2>
-														<p>Soluciones integrales las áreas de telecomunicaciones, movilidad, software, energía, cableado estructurado, sistemas de seguridad y automatización</p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class2">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-2.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Servicios</h2>
-														<p>Brindamos soporte, mantenimiento, operación y contamos con un centro de reparaciones.  </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class3">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-3.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Comercialización</h2>
-														<p>Suministro de equipos, materiales, elementos y accesorias para redes de comunicaciones, data center, sistemas eléctricos, sistemas de seguridad, entre otros. </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class4">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-4.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>iR&D</h2>
-														<p>Desarrollo de soluciones de software y hardware a la medida. </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class1">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-8.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Ingenieria</h2>
-														<p>Estudios, cálculos y diseños de proyectos de comunicaciones y movilidad.  </p>
-													</div>
-												</div></a>
-											</div>
-										</li>
-										<li class="class2">
-											<div class="overlay">
-												<img src="upload/portfolio/port4-5.jpg" alt="" />
-												 <a href="#"><div class="mask">
-													<div class="bottom-post">
-														<h2>Consultorías</h2>
-														<p>Evaluación de proyectos, gestión de comprar, gestión financiera y auditoria.</p>
-													</div>
-												</div></a>
-											</div>
-										</li>
+		<div class="contenedor">
+            <div class="imagen actual">
+                <img src="images/ProyectosSoluciones/Proyecyos y Soluciones.jpg" />
+                <div class="texto">Lago Tahoe</div>
+            </div>
 
-									</ul>
-								</div>
-							</div>
-							<a href="#" class="learn-more">More works</a>
-		
-									
-						</div>
-						<!-- End Portfolio -->
-		
-					</div>
+            <div class="imagen">
+                <img src="images/ProyectosSoluciones/Servicios.jpg" />
+                <div class="texto">Parque Nacional Redwood</div>
+            </div>
 
+            <div class="imagen">
+                <img src="images/ProyectosSoluciones/IR&D.jpg" />
+                <div class="texto">Yellowstone</div>
+            </div>
 
+            <div class="imagen">
+                <img src="images/ProyectosSoluciones/ingenieria.png" />
+                <div class="texto">Parque Nacional Yosemite</div>
+            </div>
+
+            <a href="#" class="anterior" onclick="anterior();">&#10094;</a>
+            <a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+
+            <div class="puntos">
+                <span class="punto activo" onclick="mostrar(0);"></span>
+                <span class="punto" onclick="mostrar(1);"></span>
+                <span class="punto" onclick="mostrar(2);"></span>
+                <span class="punto" onclick="mostrar(3);"></span>
+            </div>
+        </div>
+	</section>
+<!-- End Portfolio -->	
+
+<!-- Our Services -->
+	<section class="container-fluid ourServicies">
 			<div class="container">
 				<!-- Our Services -->
 				<div class="services">
@@ -218,6 +336,7 @@
 							</div>
 							
 						</div>
+	
 						<!-- end service item -->
 
 						<div class="col-md-3">
@@ -265,7 +384,12 @@
 				<!-- End Services -->
 			</div>
 			<!-- end container -->
+	</section>
+	<div class="borderButtonRed"></div>	
+<!-- End Services -->
 
+<!-- Features -->
+	<section class="container-fluid featuresContent">
 			<!-- Features -->
 			<div class="features">
 				<div class="container">
@@ -276,7 +400,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 mb20">
-							<h1 class="main-title">Por que <span>somo los mejores</span></h1>
+							<h1 class="main-title">Por que <span class="color">somo los mejores</span></h1>
 							<div class="feat-text mb30">
 								<i class="fa fa-eye"></i>
 								<div class="right-feat">
@@ -296,12 +420,16 @@
 				</div>
 			</div>
 			<!-- End Features -->
+	</section>
+<!-- End Features -->
 
+<!-- our work portfolio -->
+	<section class="container-fluid onWorkPortafolio">
 			<!-- our work portfolio -->
-			<div class="our-work">
+			<div class="">
 				
 				<div class="container">
-					<h1 class="main-title">Ultimos proyectos</h1>
+					<h1 class="main-title">Ultimos <span class="color">proyectos</span></h1>
 					<div class="main-border"></div>
 					<p class="main-subtitle">Lo que hemos hecho</p>
 
@@ -316,10 +444,10 @@
 						</div>
 						<div class="clear"></div>
 						<div class="clearfix">
-							<ul class="filter-container home-filter clearfix">
+							<ul class="works filter-container home-filter clearfix">
 								<li class="class1">
 									<div class="overlay">
-									    <img src="images/Proyectos/cctv.jpg" id="responsive-image" alt="" />
+									    <img src="images/Proyectos/cctv.jpg"  alt="" />
 	    							 	<a href="#"><div class="mask">
 									        <div class="bottom-post">
 									        	<h2>Acueducto de Bogotá</h2>
@@ -394,17 +522,23 @@
 
 			</div>
 			<!-- end our work portfolio -->
+			
+	</section>
+	<div class="borderButtonRed"></div>	
+	
+<!-- end our work portfolio -->
 
-
+<!-- Testimonials -->
+	<section class="container-fluid testimonials"> 
 			<div class="clients">
 
 				<div class="container">
-					<h1 class="main-title">Sobre nuestra compañia</h1>
+					<h1 class="main-title">Sobre nuestra <span class="color">compañia</span></h1>
 					<div class="main-border"></div>
 					<p class="main-subtitle">Que dicen los cliente sobre nosotros</p>
 				
 					
-					<div class="testimonials">
+					<div class="">
 						<ul class="bxslider">
 				          <li>
 				          		<div class="test-content">
@@ -423,7 +557,11 @@
 				</div>
 			</div>
 			<!-- End Testimonials -->
+	</section>
+<!-- End Testimonials -->
 
+<!-- Caracteristics of our Company -->
+	<section class="container-fluid company">
 			<div class="advantage">
 
 				<div class="adv-title">
@@ -496,10 +634,12 @@
 				</div>
 
 			</div>
+	</section>
+	<div class="borderButtonRed"></div>	
+<!-- End Caracteristics of our Company -->
 
-
-			
-
+<!-- skills -->
+	<section class="container-fluid skills">
 			<div class="tabsat">
 
 				<div class="container">
@@ -511,7 +651,7 @@
 						<h1 class="leftmain-title">Pocas palabras sobre nosotros</h1>
 						<div class="leftmain-border"></div>
 								
-								<div class="accordion">
+						<div class="accordion">
 									<div id="accordion-container"> 
 									     <h2 class="accordion-header">Quienes somos?</h2> 
 									     <div class="accordion-content"> 
@@ -528,7 +668,7 @@
 
 						</div>
 
-						<div class="col-md-6">
+						<div class="container col-md-6">
 						
 							<h1 class="leftmain-title">Nuestras habilidades</h1>
 							<div class="leftmain-border"></div>
@@ -565,9 +705,17 @@
 
 			</div>
 			<!-- End skills -->
+	</section>
+<!-- End skills -->
 
+<!-- Customers or Partners-->
+	<section class="container-fluid Customers">
 			<div class="partners">
 				<div class="container">
+					<h1 class="main-title">Nuestros <span class="color">Clientes</span></h1>
+					<div class="main-border"></div>	
+
+			
 					<div class="row">
 						<div class="col-md-2 col-sm-3">
 							<a href="#"><img src="images/partners/chivor.jpg" alt=""></a>
@@ -593,7 +741,11 @@
 
 		</div>
 		<!-- End content -->
-	
+	</section>
+<!-- End Customers or Partners-->	
+
+
+
 <!--FOOTER-->	
 			
-<%- include('./partials/footer.html'); %>
+<%- include('./partials/footer.html');-%>
